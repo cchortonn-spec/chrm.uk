@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CHRM UK
 
-## Getting Started
+Mobile chrome delete specialists — South Yorkshire based, UK-wide.
+Site: [chrmuk.com](https://chrmuk.com)
 
-First, run the development server:
+## Build roadmap
+
+1. **Step 1 (this repo now)** — technical foundation: Next.js App Router, TypeScript, Tailwind, routes, components, Resend, GA4/GTM, SEO skeleton.
+2. **Step 2** — drop in `chrmbranding.md` for design tokens (colours, typography, logo).
+3. **Step 3** — drop in `chrm-uk-build-spec.md` for real content and page build.
+
+Reference docs live in `AI MD Files/`.
+
+## Getting started (local)
+
+1. Install Node.js if you do not have it yet.
+2. In this folder, install packages:
+
+```bash
+npm install
+```
+
+3. Copy the example env file and fill in values when you have them:
+
+```bash
+cp .env.example .env.local
+```
+
+4. Start the local site:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Next.js (App Router) + TypeScript
+- Tailwind CSS (design tokens in `app/globals.css` — replace with branding in Step 2)
+- Resend (`lib/resend.ts` + `app/api/contact/route.ts`)
+- Google Analytics 4 + Google Tag Manager (wired in `app/layout.tsx`, IDs from env)
 
-## Learn More
+## Deploy (Vercel)
 
-To learn more about Next.js, take a look at the following resources:
+1. Push this repo to GitHub.
+2. Create a new Vercel project and import the repo.
+3. Add the same env vars from `.env.example` in the Vercel project settings.
+4. Point domain `chrmuk.com` (Namecheap DNS) to Vercel when ready.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Flags before launch
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- WhatsApp number is **TBD** — set `NEXT_PUBLIC_WHATSAPP_NUMBER` deliberately (do not reuse another brand’s number by accident).
+- Cookie consent for GA4 is required under UK GDPR/PECR — build in Step 3.
+- No real copy or branding yet — placeholders only.

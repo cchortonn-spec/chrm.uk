@@ -1,26 +1,386 @@
 @import "tailwindcss";
 
+/*
+  CHRM Brand Identity — tokens from chrmbranding.md
+  Photography leads. Accent (3M red) used sparingly.
+*/
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #000000;
+  --background-secondary: #090909;
+  --card: #111111;
+  --border: rgba(255, 255, 255, 0.08);
+  --foreground: #ffffff;
+  --foreground-secondary: rgba(255, 255, 255, 0.72);
+  --glass: rgba(255, 255, 255, 0.06);
+  --glass-strong: rgba(255, 255, 255, 0.1);
+  --glass-border: rgba(255, 255, 255, 0.14);
+  --smoke: rgba(0, 0, 0, 0.55);
+
+  /* 3M logo red — #ED1B2E — keep usage minimal */
+  --accent: #ed1b2e;
+  --accent-muted: rgba(237, 27, 46, 0.45);
+  --accent-soft: rgba(237, 27, 46, 0.18);
+  --accent-faint: rgba(237, 27, 46, 0.08);
+  /* Small label text — readable but still quiet */
+  --accent-label: rgba(237, 27, 46, 0.78);
+
+  --font-heading: var(--font-outfit);
+  --font-body: var(--font-manrope);
+  --radius-glass: 1.25rem;
+  --radius-pill: 9999px;
 }
 
 @theme inline {
   --color-background: var(--background);
+  --color-background-secondary: var(--background-secondary);
+  --color-card: var(--card);
+  --color-border: var(--border);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-foreground-secondary: var(--foreground-secondary);
+  --color-accent: var(--accent);
+  --color-accent-muted: var(--accent-muted);
+  --color-accent-soft: var(--accent-soft);
+  --color-accent-faint: var(--accent-faint);
+  --color-accent-label: var(--accent-label);
+  --font-sans: var(--font-body);
+  --font-heading: var(--font-heading);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  border-color: var(--border);
+}
+
+html {
+  background: var(--background);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body), sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading), sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  color: var(--foreground);
+}
+
+p,
+li {
+  color: var(--foreground-secondary);
+}
+
+a {
+  text-decoration: none;
+}
+
+::selection {
+  background: rgba(237, 27, 46, 0.28);
+  color: var(--foreground);
+}
+
+:focus-visible {
+  outline: 1px solid var(--accent-muted);
+  outline-offset: 3px;
+}
+
+/* Tiny red mark before section eyebrows — barely there */
+.accent-mark::before {
+  content: "";
+  display: inline-block;
+  width: 0.875rem;
+  height: 1px;
+  margin-right: 0.65rem;
+  margin-bottom: 0.2em;
+  vertical-align: middle;
+  background: var(--accent-muted);
+}
+
+/* Editorial section rhythm */
+.section-space {
+  padding-block: clamp(4rem, 10vw, 8rem);
+}
+
+.section-space-sm {
+  padding-block: clamp(2.5rem, 6vw, 4rem);
+}
+
+.text-secondary {
+  color: var(--foreground-secondary);
+}
+
+/* Editorial list helpers — hairline rows + ghost numerals */
+.divider-row {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.divider-row:last-child {
+  border-bottom: none;
+}
+
+.ghost-number {
+  font-family: var(--font-heading), sans-serif;
+  font-weight: 500;
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  letter-spacing: -0.04em;
+  line-height: 1;
+  color: rgba(255, 255, 255, 0.08);
+}
+
+/* —— iOS-style glass —— */
+.glass {
+  background: var(--glass);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-glass);
+  backdrop-filter: blur(24px) saturate(140%);
+  -webkit-backdrop-filter: blur(24px) saturate(140%);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.06) inset,
+    0 20px 50px rgba(0, 0, 0, 0.35);
+}
+
+.glass-strong {
+  background: var(--glass-strong);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-glass);
+  backdrop-filter: blur(32px) saturate(150%);
+  -webkit-backdrop-filter: blur(32px) saturate(150%);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.08) inset,
+    0 24px 60px rgba(0, 0, 0, 0.4);
+}
+
+.glass-soft {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius-glass);
+  backdrop-filter: blur(18px) saturate(130%);
+  -webkit-backdrop-filter: blur(18px) saturate(130%);
+}
+
+.glass-pill {
+  border-radius: var(--radius-pill);
+}
+
+/* Glossy light sweep — used directly over full-bleed photography */
+.gloss-sheen {
+  background: linear-gradient(
+    115deg,
+    transparent 30%,
+    rgba(255, 255, 255, 0.09) 45%,
+    rgba(255, 255, 255, 0.03) 52%,
+    transparent 65%
+  );
+  background-size: 200% 200%;
+  animation: sheen 9s ease-in-out infinite;
+  mix-blend-mode: screen;
+}
+
+/* Atmospheric smoke / tint layers */
+.smoke-veil {
+  background:
+    radial-gradient(ellipse 80% 60% at 20% 80%, rgba(255, 255, 255, 0.04), transparent 55%),
+    radial-gradient(ellipse 70% 50% at 85% 20%, rgba(255, 255, 255, 0.03), transparent 50%),
+    linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.65) 55%, #000 100%);
+}
+
+.smoke-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.smoke-section::before {
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 90% 70% at 50% -10%, rgba(255, 255, 255, 0.05), transparent 55%),
+    radial-gradient(ellipse 60% 40% at 100% 100%, rgba(255, 255, 255, 0.03), transparent 45%);
+  z-index: 0;
+}
+
+.smoke-section > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Ghost mist haze for MistBand sections */
+.mist-haze {
+  background:
+    radial-gradient(ellipse 90% 70% at 15% 20%, rgba(255, 255, 255, 0.14), transparent 55%),
+    radial-gradient(ellipse 80% 60% at 85% 75%, rgba(255, 255, 255, 0.1), transparent 50%),
+    radial-gradient(ellipse 60% 50% at 50% 50%, rgba(255, 255, 255, 0.05), transparent 65%),
+    linear-gradient(180deg, rgba(18, 18, 18, 0.9) 0%, rgba(8, 8, 8, 0.95) 100%);
+}
+
+/* Quiet motion — fade, blur, gentle scale only */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(1.25rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-blur {
+  from {
+    opacity: 0;
+    filter: blur(8px);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+@keyframes gentle-scale {
+  from {
+    opacity: 0;
+    transform: scale(1.03);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes smoke-drift {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+    opacity: 0.55;
+  }
+  50% {
+    transform: translate3d(2%, -1.5%, 0) scale(1.04);
+    opacity: 0.75;
+  }
+}
+
+@keyframes sheen {
+  0% {
+    background-position: 120% 0;
+  }
+  100% {
+    background-position: -40% 0;
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 1s ease forwards;
+}
+
+.animate-fade-up {
+  animation: fade-up 1s ease forwards;
+}
+
+.animate-fade-blur {
+  animation: fade-blur 1.2s ease forwards;
+}
+
+.animate-gentle-scale {
+  animation: gentle-scale 1.4s ease forwards;
+}
+
+.animate-smoke {
+  animation: smoke-drift 18s ease-in-out infinite;
+}
+
+.animate-delay-1 {
+  animation-delay: 0.15s;
+  opacity: 0;
+}
+
+.animate-delay-2 {
+  animation-delay: 0.3s;
+  opacity: 0;
+}
+
+.animate-delay-3 {
+  animation-delay: 0.45s;
+  opacity: 0;
+}
+
+.glass-card-hover {
+  transition:
+    transform 0.45s ease,
+    background-color 0.45s ease,
+    border-color 0.45s ease;
+}
+
+.glass-card-hover:hover {
+  transform: translateY(-3px);
+  background: rgba(255, 255, 255, 0.09);
+  border-color: rgba(255, 255, 255, 0.22);
+}
+
+/* Material ticker — slow continuous scroll under hero */
+@keyframes ticker-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.material-ticker {
+  animation: ticker-scroll 40s linear infinite;
+}
+
+.material-ticker:hover {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade-in,
+  .animate-fade-up,
+  .animate-fade-blur,
+  .animate-gentle-scale,
+  .animate-smoke,
+  .gloss-sheen,
+  .material-ticker {
+    animation: none;
+    opacity: 1;
+    filter: none;
+    transform: none;
+  }
+
+  .animate-delay-1,
+  .animate-delay-2,
+  .animate-delay-3 {
+    opacity: 1;
+  }
+
+  .glass-card-hover:hover {
+    transform: none;
+  }
+}
+
+/* Space for sticky mobile CTA */
+@media (max-width: 767px) {
+  body {
+    padding-bottom: 5rem;
+  }
 }
