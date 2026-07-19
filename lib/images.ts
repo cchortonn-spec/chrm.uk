@@ -17,9 +17,9 @@ export type SiteImageWithSize = SiteImage & {
 };
 
 export const heroImage: SiteImage = {
-  src: `${BASE}/heroimagejpg.webp`,
-  alt: "Chrome delete specialist — black luxury SUV exterior trim, South Yorkshire",
-  caption: "OEM+ exterior trim styling",
+  src: `${BASE}/chrome-delete-audi-suv-rign-studio-south-yorkshire.webp`,
+  alt: "Audi SUV in the RIGN studio — premium automotive care, South Yorkshire",
+  caption: "RIGN studio — refined automotive",
 };
 
 /** Portrait hero for mobile — fills the phone screen without awkward crop */
