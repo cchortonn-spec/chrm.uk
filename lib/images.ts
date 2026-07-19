@@ -22,6 +22,13 @@ export const heroImage: SiteImage = {
   caption: "OEM+ exterior trim styling",
 };
 
+/** Portrait hero for mobile — fills the phone screen without awkward crop */
+export const heroImageMobile: SiteImage = {
+  src: `${BASE}/chrome-delete-black-suv-mobile-hero-south-yorkshire.webp`,
+  alt: "Black luxury SUV in studio — refined automotive finish, South Yorkshire",
+  caption: "Mobile hero",
+};
+
 /** RIGN brand mark — white on transparent, used site-wide except the header */
 export const brandMark = {
   src: "/rign-logo/rign-mark.png",

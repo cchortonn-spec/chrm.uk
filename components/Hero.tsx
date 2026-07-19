@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import WhatsAppButton from "@/components/WhatsAppButton";
-import { heroImage } from "@/lib/images";
+import { heroImage, heroImageMobile } from "@/lib/images";
 
 type HeroProps = {
   headline?: string;
@@ -10,8 +10,8 @@ type HeroProps = {
 };
 
 /**
- * Full-bleed first viewport. Sized so the material ticker sits on the
- * bottom edge of the screen — last thing visible before scroll.
+ * Full-bleed first viewport. Portrait photo on mobile, landscape on desktop.
+ * Sized so the material ticker sits on the bottom edge before scroll.
  */
 export default function Hero({
   headline = "Refined automotive.",
@@ -20,13 +20,23 @@ export default function Hero({
 }: HeroProps) {
   return (
     <section className="relative flex min-h-0 w-full flex-1 items-end overflow-hidden bg-background">
+      {/* Mobile portrait hero */}
+      <Image
+        src={heroImageMobile.src}
+        alt={heroImageMobile.alt}
+        fill
+        priority
+        sizes="100vw"
+        className="animate-gentle-scale object-cover object-center md:hidden"
+      />
+      {/* Desktop landscape hero */}
       <Image
         src={heroImage.src}
         alt={heroImage.alt}
         fill
         priority
         sizes="100vw"
-        className="animate-gentle-scale object-cover object-[68%_52%] md:object-center"
+        className="animate-gentle-scale hidden object-cover object-center md:block"
       />
 
       <div className="gloss-sheen absolute inset-0" aria-hidden />

@@ -29,11 +29,15 @@ export const metadata: Metadata = {
   }),
   other: {
     "msapplication-TileColor": "#000000",
+    "apple-mobile-web-app-status-bar-style": "black-translucent",
   },
 };
 
 export const viewport: Viewport = {
-  themeColor: "#000000",
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#000000" },
+    { media: "(prefers-color-scheme: dark)", color: "#000000" },
+  ],
   colorScheme: "dark",
 };
 
