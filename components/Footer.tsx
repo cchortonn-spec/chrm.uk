@@ -5,10 +5,16 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 
 const navLinks = [
   { href: "/what-we-do", label: "Services" },
+  { href: "/services/chrome-delete", label: "Chrome delete" },
+  { href: "/services/paint-protection-film", label: "PPF" },
+  { href: "/services/detailing", label: "Detailing" },
+  { href: "/services/paint-correction", label: "Paint correction" },
   { href: "/gallery", label: "Gallery" },
+  { href: "/areas-we-cover", label: "Areas" },
+  { href: "/areas-we-cover/sheffield", label: "Sheffield" },
+  { href: "/guides", label: "Guides" },
   { href: "/pricing", label: "Pricing" },
   { href: "/dealerships", label: "Dealerships" },
-  { href: "/areas-we-cover", label: "Areas" },
   { href: "/faq", label: "FAQ" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
@@ -30,7 +36,7 @@ export default function Footer() {
             Refined Automotive
           </p>
           <p className="mt-6 max-w-xs text-sm leading-relaxed text-foreground-secondary">
-            Chrome delete, detailing, and paint correction. South Yorkshire
+            Chrome delete, PPF, detailing, and paint correction. South Yorkshire
             based. UK-wide by appointment. Fitted with 3M premium cast-PVC
             wrapping film.
           </p>

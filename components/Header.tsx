@@ -4,7 +4,9 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 
 const navLinks = [
   { href: "/what-we-do", label: "Services" },
+  { href: "/areas-we-cover", label: "Areas" },
   { href: "/gallery", label: "Gallery" },
+  { href: "/guides", label: "Guides" },
   { href: "/pricing", label: "Pricing" },
   { href: "/dealerships", label: "Dealerships" },
   { href: "/about", label: "About" },

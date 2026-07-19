@@ -19,12 +19,12 @@ export const metadata: Metadata = createMetadata({
 });
 
 const services = [
-  { title: "Chrome delete", hint: "OEM+ finish" },
-  { title: "Detailing", hint: "Showroom clean" },
-  { title: "Paint correction", hint: "Machine polish" },
-  { title: "Badges & emblems", hint: "Quiet blackout" },
-  { title: "Window surrounds", hint: "Continuous silhouette" },
-  { title: "Grilles & trim", hint: "Unified face" },
+  { title: "Chrome delete", hint: "OEM+ finish", href: "/services/chrome-delete" },
+  { title: "PPF", hint: "Targeted protection", href: "/services/paint-protection-film" },
+  { title: "Detailing", hint: "Showroom clean", href: "/services/detailing" },
+  { title: "Paint correction", hint: "Machine polish", href: "/services/paint-correction" },
+  { title: "Badges & emblems", hint: "Quiet blackout", href: "/services/chrome-delete" },
+  { title: "Window surrounds", hint: "Continuous silhouette", href: "/services/chrome-delete" },
 ];
 
 const whyPoints = [
@@ -104,21 +104,23 @@ export default function HomePage() {
             What we offer
           </h2>
           <p className="mt-4 max-w-md text-base text-foreground-secondary">
-            Exterior trim, detailing, and paint correction — refined work,
+            Chrome delete, PPF, detailing, and paint correction — refined work,
             finished properly.
           </p>
           <ul className="mt-14 grid gap-x-12 sm:grid-cols-2">
             {services.map((item) => (
-              <li
-                key={item.title}
-                className="divider-row flex items-baseline justify-between gap-6 py-5 md:py-6"
-              >
-                <span className="text-base tracking-[0.02em] text-foreground md:text-lg">
-                  {item.title}
-                </span>
-                <span className="shrink-0 text-[11px] tracking-[0.14em] text-accent-label uppercase">
-                  {item.hint}
-                </span>
+              <li key={item.title} className="divider-row py-5 md:py-6">
+                <Link
+                  href={item.href}
+                  className="flex items-baseline justify-between gap-6 transition-opacity hover:opacity-85"
+                >
+                  <span className="text-base tracking-[0.02em] text-foreground md:text-lg">
+                    {item.title}
+                  </span>
+                  <span className="shrink-0 text-[11px] tracking-[0.14em] text-accent-label uppercase">
+                    {item.hint}
+                  </span>
+                </Link>
               </li>
             ))}
           </ul>
