@@ -360,6 +360,11 @@ a {
   animation-play-state: paused;
 }
 
+/* Home work slideshow — fixed frames; slides fade in code (no swipe UI) */
+.work-slideshow {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
 @media (prefers-reduced-motion: reduce) {
   .animate-fade-in,
   .animate-fade-up,
@@ -372,6 +377,10 @@ a {
     opacity: 1;
     filter: none;
     transform: none;
+  }
+
+  .work-slideshow img {
+    transition: none !important;
   }
 
   .material-ticker > *:nth-child(2) {

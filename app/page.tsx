@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import BrandMark from "@/components/BrandMark";
 import Hero from "@/components/Hero";
@@ -7,7 +6,8 @@ import MaterialTicker from "@/components/MaterialTicker";
 import MistBand from "@/components/MistBand";
 import SectionWrapper from "@/components/SectionWrapper";
 import WhatsAppButton from "@/components/WhatsAppButton";
-import { bandBackdrops, recentFitsImages } from "@/lib/images";
+import WorkSlideshow from "@/components/WorkSlideshow";
+import { bandBackdrops } from "@/lib/images";
 import { MATERIAL } from "@/lib/material";
 import { generateMetadata as createMetadata } from "@/lib/seo";
 
@@ -133,35 +133,8 @@ export default function HomePage() {
         </SectionWrapper>
       </section>
 
-      {/* Recent fits — quiet photo strip, no captions */}
-      <section className="smoke-section section-space border-y border-white/10 bg-background-secondary/50">
-        <SectionWrapper>
-          <p className="accent-mark text-[11px] font-medium tracking-[0.2em] text-accent-label uppercase">
-            Recent fits
-          </p>
-          <div className="mt-10 flex flex-wrap items-start gap-3 md:gap-4">
-            {recentFitsImages.map((image) => (
-              <Image
-                key={image.src}
-                src={image.src}
-                alt={image.alt}
-                width={image.width}
-                height={image.height}
-                sizes="(max-width: 768px) 50vw, 280px"
-                className="h-64 w-auto max-w-full sm:h-72 md:h-80"
-              />
-            ))}
-          </div>
-          <div className="mt-10">
-            <Link
-              href="/gallery"
-              className="text-xs font-medium tracking-[0.14em] text-foreground-secondary uppercase transition-colors hover:text-foreground"
-            >
-              See more →
-            </Link>
-          </div>
-        </SectionWrapper>
-      </section>
+      {/* Auto slideshow — new studio set only; no manual controls */}
+      <WorkSlideshow />
 
       {/* Why RIGN — ghost-numbered editorial list */}
       <section className="smoke-section">
