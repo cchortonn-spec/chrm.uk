@@ -17,9 +17,9 @@ export type SiteImageWithSize = SiteImage & {
 };
 
 export const heroImage: SiteImage = {
-  src: `${BASE}/chrome-delete-bmw-320i-rign-studio-south-yorkshire.webp`,
-  alt: "BMW 320i in studio — refined automotive finish, South Yorkshire",
-  caption: "RIGN studio — BMW 320i",
+  src: `${BASE}/chrome-delete-audi-rign-studio-south-yorkshire.webp`,
+  alt: "Audi in RIGN studio — refined automotive finish, South Yorkshire",
+  caption: "RIGN studio — Audi",
 };
 
 /** Portrait hero for mobile — fills the phone screen without awkward crop */
