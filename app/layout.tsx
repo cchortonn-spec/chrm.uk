@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import { Manrope, Outfit } from "next/font/google";
 import Header from "@/components/Header";
@@ -21,21 +21,31 @@ const manrope = Manrope({
   display: "swap",
 });
 
-export const metadata: Metadata = createMetadata({
-  title: "CHRM UK | Chrome Delete Specialists",
-  description:
-    "Mobile chrome delete specialists. South Yorkshire based, UK-wide. A cleaner, more refined finish — OEM+ exterior trim styling.",
-  canonicalPath: "/",
-});
+export const metadata: Metadata = {
+  ...createMetadata({
+    title: "RIGN | Refined Automotive",
+    description:
+      "Refined automotive — chrome delete, detailing, and paint correction. South Yorkshire based, UK-wide.",
+    canonicalPath: "/",
+  }),
+  other: {
+    "msapplication-TileColor": "#000000",
+  },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#000000",
+  colorScheme: "dark",
+};
 
 const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "AutomotiveBusiness",
-  name: "CHRM UK",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://chrmuk.com",
-  email: "info@chrmuk.com",
+  name: "RIGN",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://rign.uk",
+  email: "info@rign.uk",
   description:
-    "Mobile chrome delete specialists — South Yorkshire based, UK-wide.",
+    "Refined automotive — chrome delete, detailing, and paint correction. South Yorkshire based, UK-wide.",
   areaServed: {
     "@type": "Country",
     name: "United Kingdom",

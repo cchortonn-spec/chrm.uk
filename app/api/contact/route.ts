@@ -3,7 +3,7 @@ import { sendContactEmail } from "@/lib/resend";
 
 /**
  * Contact form API — ready for Step 3 when the live form is wired up.
- * Sends via Resend to CONTACT_EMAIL_TO with [CHRM UK] subject prefix.
+ * Sends via Resend to CONTACT_EMAIL_TO with [RIGN] subject prefix.
  */
 export async function POST(request: Request) {
   try {

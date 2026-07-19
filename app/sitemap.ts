@@ -4,7 +4,7 @@ import { SITE_ROUTES } from "@/lib/seo";
 export default function sitemap(): MetadataRoute.Sitemap {
   const siteUrl =
     process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ||
-    "https://chrmuk.com";
+    "https://rign.uk";
 
   const now = new Date();
 

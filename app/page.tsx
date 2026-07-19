@@ -12,25 +12,25 @@ import { MATERIAL } from "@/lib/material";
 import { generateMetadata as createMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = createMetadata({
-  title: "CHRM UK | Chrome Delete Specialists",
+  title: "RIGN | Refined Automotive",
   description:
-    "Mobile chrome delete specialists. South Yorkshire based, UK-wide. OEM+ exterior trim styling — badges, surrounds, grilles, and more.",
+    "Chrome delete, detailing, and paint correction. South Yorkshire based, UK-wide. Refined automotive — OEM+ finish, mobile by design.",
   canonicalPath: "/",
 });
 
 const services = [
+  { title: "Chrome delete", hint: "Signature craft" },
+  { title: "Detailing", hint: "Showroom clean" },
+  { title: "Paint correction", hint: "Machine polish" },
   { title: "Badges & emblems", hint: "Quiet blackout" },
   { title: "Window surrounds", hint: "Continuous silhouette" },
-  { title: "Grilles", hint: "OEM+ face" },
-  { title: "Bumper trim", hint: "Unified finish" },
-  { title: "Door handles", hint: "Precision detail" },
-  { title: "Mirror caps", hint: "Matched language" },
+  { title: "Grilles & trim", hint: "OEM+ face" },
 ];
 
 const whyPoints = [
   {
-    title: "Specialists, not generalists",
-    body: "Chrome delete is the craft — not one line among many.",
+    title: "Signature craft first",
+    body: "Chrome delete is the proof of standard — not one line among many. Everything else is held to the same bar.",
   },
   {
     title: "3M premium film",
@@ -100,10 +100,11 @@ export default function HomePage() {
             Services
           </p>
           <h2 className="mt-4 max-w-xl font-heading text-3xl font-medium tracking-tight md:text-4xl">
-            What we chrome-delete
+            What we offer
           </h2>
           <p className="mt-4 max-w-md text-base text-foreground-secondary">
-            Exterior trim, refined. One specialist focus.
+            Chrome delete leads. Detailing and paint correction sit beside it —
+            one standard throughout.
           </p>
           <ul className="mt-14 grid gap-x-12 sm:grid-cols-2">
             {services.map((item) => (
@@ -161,12 +162,12 @@ export default function HomePage() {
         </SectionWrapper>
       </section>
 
-      {/* Why CHRM — ghost-numbered editorial list */}
+      {/* Why RIGN — ghost-numbered editorial list */}
       <section className="smoke-section">
         <SectionWrapper className="section-space">
           <BrandMark size="sm" className="mb-8 opacity-80" />
           <p className="accent-mark text-[11px] font-medium tracking-[0.2em] text-accent-label uppercase">
-            Why CHRM
+            Why RIGN
           </p>
           <h2 className="mt-4 max-w-lg font-heading text-3xl font-medium tracking-tight md:text-4xl">
             Engineered. Intentional. Premium.
@@ -212,7 +213,8 @@ export default function HomePage() {
                 For dealerships
               </h2>
               <p className="mt-4 max-w-md text-base text-foreground-secondary">
-                Consistent finish. Reliable turnaround. Built for repeat work.
+                Chrome delete, detailing, correction — consistent finish,
+                reliable turnaround, built for repeat work.
               </p>
             </div>
             <span className="text-xs font-medium tracking-[0.14em] text-foreground-secondary uppercase transition-colors group-hover:text-foreground">

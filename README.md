@@ -1,15 +1,8 @@
-# CHRM UK
+# RIGN
 
-Mobile chrome delete specialists — South Yorkshire based, UK-wide.
-Site: [chrmuk.com](https://chrmuk.com)
-
-## Build roadmap
-
-1. **Step 1 (this repo now)** — technical foundation: Next.js App Router, TypeScript, Tailwind, routes, components, Resend, GA4/GTM, SEO skeleton.
-2. **Step 2** — drop in `chrmbranding.md` for design tokens (colours, typography, logo).
-3. **Step 3** — drop in `chrm-uk-build-spec.md` for real content and page build.
-
-Reference docs live in `AI MD Files/`.
+Refined automotive — chrome delete, detailing, and paint correction.
+South Yorkshire based, UK-wide.
+Site: [rign.uk](https://rign.uk)
 
 ## Getting started (local)
 
@@ -37,19 +30,14 @@ npm run dev
 ## Stack
 
 - Next.js (App Router) + TypeScript
-- Tailwind CSS (design tokens in `app/globals.css` — replace with branding in Step 2)
+- Tailwind CSS (design tokens in `app/globals.css`)
 - Resend (`lib/resend.ts` + `app/api/contact/route.ts`)
 - Google Analytics 4 + Google Tag Manager (wired in `app/layout.tsx`, IDs from env)
 
 ## Deploy (Vercel)
 
 1. Push this repo to GitHub.
-2. Create a new Vercel project and import the repo.
-3. Add the same env vars from `.env.example` in the Vercel project settings.
-4. Point domain `chrmuk.com` (Namecheap DNS) to Vercel when ready.
+2. Add the same env vars from `.env.example` in the Vercel project settings.
+3. Domain `rign.uk` is connected to Vercel.
 
-## Flags before launch
-
-- WhatsApp number is **TBD** — set `NEXT_PUBLIC_WHATSAPP_NUMBER` deliberately (do not reuse another brand’s number by accident).
-- Cookie consent for GA4 is required under UK GDPR/PECR — build in Step 3.
-- No real copy or branding yet — placeholders only.
+Reference docs live in `AI MD Files/`.

@@ -6,7 +6,7 @@ import { generateMetadata as createMetadata } from "@/lib/seo";
 export const metadata: Metadata = createMetadata({
   title: "Privacy Policy",
   description:
-    "How CHRM UK collects and uses personal data on chrmuk.com — contact enquiries, vehicle photos, and analytics under UK GDPR.",
+    "How RIGN collects and uses personal data on rign.uk — contact enquiries, vehicle photos, and analytics under UK GDPR.",
   canonicalPath: "/privacy",
 });
 
@@ -35,7 +35,7 @@ export default function PrivacyPage() {
     <PageShell
       eyebrow="Legal"
       title="Privacy Policy"
-      description="What personal data we collect through chrmuk.com, why, and your rights."
+      description="What personal data we collect through rign.uk, why, and your rights."
       showClosingCta={false}
     >
       <SectionWrapper className="pb-24">
@@ -46,19 +46,19 @@ export default function PrivacyPage() {
         <div className="max-w-2xl space-y-10">
           <Section title="Who we are">
             <p>
-              CHRM UK (&quot;we,&quot; &quot;us,&quot; &quot;our&quot;) provides
+              RIGN (&quot;we,&quot; &quot;us,&quot; &quot;our&quot;) provides
               mobile chrome delete services for vehicles, based in South
               Yorkshire, operating across the UK. This policy explains what
-              personal data we collect through chrmuk.com, why, and what
+              personal data we collect through rign.uk, why, and what
               rights you have over it.
             </p>
             <p>
               Contact for any privacy query:{" "}
               <a
-                href="mailto:info@chrmuk.com"
+                href="mailto:info@rign.uk"
                 className="text-foreground underline-offset-4 hover:underline"
               >
-                info@chrmuk.com
+                info@rign.uk
               </a>
             </p>
           </Section>
@@ -158,10 +158,10 @@ export default function PrivacyPage() {
             <p>
               To exercise any of these, email{" "}
               <a
-                href="mailto:info@chrmuk.com"
+                href="mailto:info@rign.uk"
                 className="text-foreground underline-offset-4 hover:underline"
               >
-                info@chrmuk.com
+                info@rign.uk
               </a>
               . You can also complain to the Information Commissioner&apos;s
               Office (ICO) at{" "}

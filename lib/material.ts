@@ -1,6 +1,6 @@
 /**
  * Film / material specs used across the site.
- * CHRM installs premium 3M vehicle wrapping film for chrome delete.
+ * RIGN installs premium 3M vehicle wrapping film for chrome delete.
  */
 export const MATERIAL = {
   brand: "3M",

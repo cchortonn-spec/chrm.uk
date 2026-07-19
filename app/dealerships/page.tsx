@@ -6,7 +6,7 @@ import { generateMetadata as createMetadata } from "@/lib/seo";
 export const metadata: Metadata = createMetadata({
   title: "For Dealerships",
   description:
-    "Trade chrome delete for dealerships — turnaround, bulk work, invoicing, consistent finish across vehicles.",
+    "Trade chrome delete, detailing, and paint correction for dealerships — turnaround, bulk work, invoicing, consistent finish.",
   canonicalPath: "/dealerships",
 });
 
@@ -17,7 +17,7 @@ const points = [
   },
   {
     title: "Repeat & bulk",
-    body: "Same process, same finish, vehicle after vehicle. Built for trade volume.",
+    body: "Same process, same finish, vehicle after vehicle. Built for trade volume across chrome delete, detailing, and correction.",
   },
   {
     title: "Invoicing",
@@ -34,7 +34,7 @@ export default function DealershipsPage() {
     <PageShell
       eyebrow="Trade"
       title="For dealerships"
-      description="Chrome delete as a trade service. Reliable, consistent, and ready for repeat work."
+      description="Chrome delete, detailing, and paint correction as a trade service. Reliable, consistent, and ready for repeat work."
     >
       <SectionWrapper className="pb-24">
         <div className="grid gap-12 sm:grid-cols-2">

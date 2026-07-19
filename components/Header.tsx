@@ -18,16 +18,16 @@ export default function Header() {
         <Link
           href="/"
           className="shrink-0 transition-opacity duration-300 hover:opacity-85"
-          aria-label="CHRM — Exterior Trim Specialists"
+          aria-label="RIGN — Refined Automotive"
         >
           <Image
-            src="/chrm_Logo/Mainlogo-cropped.png"
-            alt="CHRM Exterior Trim Specialists"
-            width={926}
-            height={189}
+            src="/rign-logo/rign-header-logo.png"
+            alt="RIGN — Refined Automotive"
+            width={1536}
+            height={1024}
             priority
-            sizes="(max-width: 768px) 180px, 220px"
-            className="h-10 w-auto sm:h-11 md:h-12"
+            sizes="(max-width: 768px) 140px, 180px"
+            className="h-12 w-auto sm:h-14 md:h-16"
           />
         </Link>
 

@@ -7,7 +7,7 @@ import { generateMetadata as createMetadata } from "@/lib/seo";
 export const metadata: Metadata = createMetadata({
   title: "About",
   description:
-    "CHRM UK — chrome delete specialists. Why one craft, what mobile means, and how we work.",
+    "RIGN — refined automotive. Chrome delete as the signature craft, with detailing and paint correction alongside.",
   canonicalPath: "/about",
 });
 
@@ -15,19 +15,31 @@ export default function AboutPage() {
   return (
     <PageShell
       eyebrow="About"
-      title="One craft."
-      description="Chrome delete, done properly. Not a wrap shop with a side line — a specialist in exterior trim refinement."
+      title="Refined automotive."
+      description="Chrome delete is the signature — the proof of craft. Detailing and paint correction sit beside it. One standard. Mobile by design."
     >
       <SectionWrapper className="pb-24">
         <div className="max-w-2xl space-y-10">
           <div>
             <h2 className="font-heading text-xl font-medium text-foreground">
-              Why chrome delete
+              Why chrome delete leads
             </h2>
             <p className="mt-3 text-sm leading-relaxed text-foreground-secondary">
               Customers aren&apos;t buying vinyl. They&apos;re buying a cleaner,
               more refined version of the vehicle they already chose. OEM+.
-              Never loud. Always intentional.
+              Never loud. Always intentional. That&apos;s the standard everything
+              else is judged against.
+            </p>
+          </div>
+          <div>
+            <h2 className="font-heading text-xl font-medium text-foreground">
+              The fuller offering
+            </h2>
+            <p className="mt-3 text-sm leading-relaxed text-foreground-secondary">
+              Alongside chrome delete we offer detailing and machine polishing /
+              paint correction — held to the same dealership-grade finish. Paint
+              protection (PPF) is in development and isn&apos;t listed until
+              it&apos;s ready.
             </p>
           </div>
           <div>

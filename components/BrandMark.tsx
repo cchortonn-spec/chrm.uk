@@ -7,22 +7,21 @@ type BrandMarkProps = {
 };
 
 const sizeMap = {
-  sm: { width: 72, height: 34, className: "h-7 w-auto" },
-  md: { width: 110, height: 52, className: "h-10 w-auto" },
-  lg: { width: 160, height: 76, className: "h-14 w-auto sm:h-16" },
+  sm: { width: 96, height: 64, className: "h-8 w-auto" },
+  md: { width: 140, height: 93, className: "h-11 w-auto" },
+  lg: { width: 200, height: 133, className: "h-14 w-auto sm:h-16" },
 } as const;
 
 /**
- * C|R brand mark — used site-wide except the header (which uses the full wordmark).
- * Served from a URL-safe copy of the source mark (white on transparent).
+ * RIGN brand mark — used site-wide except the header (which uses the full lockup).
  */
 export default function BrandMark({ size = "md", className = "" }: BrandMarkProps) {
   const s = sizeMap[size];
 
   return (
     <Image
-      src="/chrm_Logo/cr-logo.png"
-      alt="CHRM"
+      src="/rign-logo/rign-mark.png"
+      alt="RIGN"
       width={s.width}
       height={s.height}
       sizes={`${s.width}px`}

@@ -14,8 +14,8 @@ type HeroProps = {
  * no boxed card. A soft glossy sheen sweeps the image for a premium feel.
  */
 export default function Hero({
-  headline = "Chrome delete. Refined.",
-  subheadline = "Mobile exterior trim specialists. South Yorkshire based. UK-wide.",
+  headline = "Refined automotive.",
+  subheadline = "Chrome delete as the signature. Detailing and paint correction alongside. South Yorkshire based. UK-wide.",
   ctaLabel = "Get Your Quote",
 }: HeroProps) {
   return (

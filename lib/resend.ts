@@ -1,7 +1,7 @@
 import { Resend } from "resend";
 
-const FROM_ADDRESS = "CHRM UK <info@chrmuk.com>";
-const SUBJECT_PREFIX = "[CHRM UK]";
+const FROM_ADDRESS = "RIGN <info@rign.uk>";
+const SUBJECT_PREFIX = "[RIGN]";
 
 export type ContactEmailPayload = {
   name: string;
@@ -12,9 +12,9 @@ export type ContactEmailPayload = {
 
 /**
  * Sends a contact-form email via Resend.
- * From: info@chrmuk.com
- * To: CONTACT_EMAIL_TO env (chrm.uk@proton.me)
- * Subject always prefixed with [CHRM UK]
+ * From: info@rign.uk
+ * To: CONTACT_EMAIL_TO env (rign.uk@gmail.com)
+ * Subject always prefixed with [RIGN]
  */
 export async function sendContactEmail(payload: ContactEmailPayload) {
   const apiKey = process.env.RESEND_API_KEY;

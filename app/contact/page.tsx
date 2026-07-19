@@ -63,10 +63,10 @@ export default function ContactPage() {
           <p className="mt-3 text-sm text-foreground-secondary">
             Form wiring lands in Step 3. Until then —{" "}
             <a
-              href="mailto:info@chrmuk.com"
+              href="mailto:info@rign.uk"
               className="text-foreground underline-offset-4 hover:underline"
             >
-              info@chrmuk.com
+              info@rign.uk
             </a>
           </p>
 

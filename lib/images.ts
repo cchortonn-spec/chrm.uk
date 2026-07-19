@@ -22,10 +22,10 @@ export const heroImage: SiteImage = {
   caption: "OEM+ exterior trim styling",
 };
 
-/** C|R brand mark — white on transparent (URL-safe copy of source mark) */
+/** RIGN brand mark — white on transparent, used site-wide except the header */
 export const brandMark = {
-  src: "/chrm_Logo/cr-logo.png",
-  alt: "CHRM",
+  src: "/rign-logo/rign-mark.png",
+  alt: "RIGN",
 } as const;
 
 /** Dark cinematic vehicle backdrops for home MistBand sections — each unique */

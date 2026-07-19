@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-const SITE_NAME = "CHRM UK";
+const SITE_NAME = "RIGN";
 const DEFAULT_OG_IMAGE = "/og-default.jpg"; // TODO: replace when branding assets land
 
 export type PageSeoConfig = {
@@ -17,7 +17,7 @@ export type PageSeoConfig = {
 function getSiteUrl() {
   return (
     process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ||
-    "https://chrmuk.com"
+    "https://rign.uk"
   );
 }
 
@@ -49,6 +49,26 @@ export function generateMetadata(page: PageSeoConfig): Metadata {
     metadataBase: new URL(siteUrl),
     alternates: {
       canonical,
+    },
+    icons: {
+      icon: [
+        { url: "/favicon.ico", sizes: "any" },
+        { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+        { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      ],
+      apple: [
+        {
+          url: "/apple-touch-icon.png",
+          sizes: "180x180",
+          type: "image/png",
+        },
+      ],
+    },
+    manifest: "/site.webmanifest",
+    appleWebApp: {
+      capable: true,
+      title: SITE_NAME,
+      statusBarStyle: "black-translucent",
     },
     openGraph: {
       title: fullTitle,

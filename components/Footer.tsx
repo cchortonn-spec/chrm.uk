@@ -22,16 +22,17 @@ export default function Footer() {
           <Link
             href="/"
             className="inline-block transition-opacity duration-300 hover:opacity-85"
-            aria-label="CHRM — Exterior Trim Specialists"
+            aria-label="RIGN — Refined Automotive"
           >
             <BrandMark size="md" />
           </Link>
           <p className="mt-3 text-[10px] font-medium tracking-[0.18em] text-accent-label uppercase">
-            Exterior Trim Specialists
+            Refined Automotive
           </p>
           <p className="mt-6 max-w-xs text-sm leading-relaxed text-foreground-secondary">
-            Mobile chrome delete. South Yorkshire based. UK-wide by
-            appointment. Fitted with 3M premium cast-PVC wrapping film.
+            Chrome delete, detailing, and paint correction. South Yorkshire
+            based. UK-wide by appointment. Fitted with 3M premium cast-PVC
+            wrapping film.
           </p>
         </div>
 
@@ -60,10 +61,10 @@ export default function Footer() {
           <ul className="mt-5 space-y-4 text-sm text-foreground-secondary">
             <li>
               <a
-                href="mailto:info@chrmuk.com"
+                href="mailto:info@rign.uk"
                 className="transition-colors duration-300 hover:text-foreground"
               >
-                info@chrmuk.com
+                info@rign.uk
               </a>
             </li>
             <li>
@@ -91,7 +92,7 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-border px-5 py-5 text-center text-[11px] tracking-[0.08em] text-foreground-secondary md:px-8">
-        © {new Date().getFullYear()} CHRM UK
+        © {new Date().getFullYear()} RIGN
       </div>
     </footer>
   );

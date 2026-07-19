@@ -16,7 +16,7 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
-        hostname: "cdn.chrmuk.com",
+        hostname: "cdn.rign.uk",
       },
     ],
   },

@@ -6,7 +6,7 @@ import { generateMetadata as createMetadata } from "@/lib/seo";
 export const metadata: Metadata = createMetadata({
   title: "Terms of Website Use",
   description:
-    "Terms of website use for chrmuk.com — quotes, content, liability, and governing law for England and Wales.",
+    "Terms of website use for rign.uk — quotes, content, liability, and governing law for England and Wales.",
   canonicalPath: "/terms",
 });
 
@@ -35,7 +35,7 @@ export default function TermsPage() {
     <PageShell
       eyebrow="Legal"
       title="Terms of Website Use"
-      description="How you may use chrmuk.com. Separate terms apply to booked work."
+      description="How you may use rign.uk. Separate terms apply to booked work."
       showClosingCta={false}
     >
       <SectionWrapper className="pb-24">
@@ -46,7 +46,7 @@ export default function TermsPage() {
         <div className="max-w-2xl space-y-10">
           <Section title="About us">
             <p>
-              This website is operated by CHRM UK, based in South Yorkshire,
+              This website is operated by RIGN, based in South Yorkshire,
               England.
             </p>
           </Section>
@@ -73,7 +73,7 @@ export default function TermsPage() {
           <Section title="Content and intellectual property">
             <p>
               All content on this site — text, images, logo, and design —
-              belongs to CHRM UK unless otherwise stated, and shouldn&apos;t be
+              belongs to RIGN unless otherwise stated, and shouldn&apos;t be
               copied or reused without permission.
             </p>
           </Section>
@@ -88,7 +88,7 @@ export default function TermsPage() {
               personal injury).
             </p>
             <p className="border-l border-border pl-4 text-foreground-secondary">
-              These are website terms only, covering use of chrmuk.com. Your
+              These are website terms only, covering use of rign.uk. Your
               separate terms of business (covering the actual paid work —
               deposits, cancellations, guarantees, liability for the physical
               job) should be a distinct document, given to customers and
@@ -112,10 +112,10 @@ export default function TermsPage() {
             <p>
               Questions about these terms:{" "}
               <a
-                href="mailto:info@chrmuk.com"
+                href="mailto:info@rign.uk"
                 className="text-foreground underline-offset-4 hover:underline"
               >
-                info@chrmuk.com
+                info@rign.uk
               </a>
             </p>
           </Section>
