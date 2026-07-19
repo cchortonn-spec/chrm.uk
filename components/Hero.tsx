@@ -19,14 +19,14 @@ export default function Hero({
   ctaLabel = "Get Your Quote",
 }: HeroProps) {
   return (
-    <section className="relative flex min-h-[100svh] w-full items-end overflow-hidden bg-background">
+    <section className="relative flex min-h-[78svh] w-full items-end overflow-hidden bg-background md:min-h-[100svh]">
       <Image
         src={heroImage.src}
         alt={heroImage.alt}
         fill
         priority
         sizes="100vw"
-        className="animate-gentle-scale object-cover object-center"
+        className="animate-gentle-scale object-cover object-[68%_52%] md:object-center"
       />
 
       {/* Glossy sheen sweep */}
