@@ -372,6 +372,10 @@ a {
     transform: none;
   }
 
+  .material-ticker > *:nth-child(2) {
+    display: none;
+  }
+
   .animate-delay-1,
   .animate-delay-2,
   .animate-delay-3 {
