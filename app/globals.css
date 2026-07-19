@@ -171,6 +171,21 @@ a {
   border-radius: var(--radius-pill);
 }
 
+/* Cut corners — 45° chamfer (not round, not square). Matches RIGN geometry. */
+.edge-cut {
+  border-radius: 0;
+  clip-path: polygon(
+    0 7px,
+    7px 0,
+    calc(100% - 7px) 0,
+    100% 7px,
+    100% calc(100% - 7px),
+    calc(100% - 7px) 100%,
+    7px 100%,
+    0 calc(100% - 7px)
+  );
+}
+
 /* Full-bleed hero — dark glass overlay (no blur) */
 .hero-glass {
   background: rgba(0, 0, 0, 0.32);
@@ -387,9 +402,9 @@ a {
   }
 }
 
-/* Space for sticky mobile CTA */
+/* Space for floating sticky mobile CTA chip */
 @media (max-width: 767px) {
   body {
-    padding-bottom: 5rem;
+    padding-bottom: 5.5rem;
   }
 }

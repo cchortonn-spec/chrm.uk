@@ -11,13 +11,14 @@ type WhatsAppButtonProps = {
   className?: string;
 };
 
-/** Shared base — one size system (~44px+ tap), frosted ghost style */
+/** Shared base — frosted ghost, cut corners (chamfer), not round / not boxy */
 const baseClasses =
-  "inline-flex min-h-11 items-center justify-center gap-2.5 border border-white/25 bg-white/10 px-6 py-3 text-xs font-medium tracking-[0.1em] text-white uppercase backdrop-blur-md transition-[background-color,border-color,opacity] duration-300 hover:border-accent-muted hover:bg-white/16 active:opacity-80";
+  "edge-cut inline-flex min-h-11 items-center justify-center gap-2.5 border border-white/25 bg-white/10 px-6 py-3 text-xs font-medium tracking-[0.1em] text-white uppercase backdrop-blur-md transition-[background-color,border-color,opacity] duration-300 hover:border-accent-muted hover:bg-white/16 active:opacity-80";
 
 const variantClasses: Record<WhatsAppVariant, string> = {
   hero: baseClasses,
-  "sticky-mobile": `${baseClasses} w-full`,
+  "sticky-mobile":
+    "edge-cut inline-flex min-h-12 items-center justify-center gap-2 border border-white/30 bg-black/70 px-4 py-3 text-[10px] font-medium tracking-[0.16em] text-white uppercase shadow-[0_12px_40px_rgba(0,0,0,0.55)] backdrop-blur-xl transition-[background-color,border-color,opacity] duration-300 hover:border-accent-muted hover:bg-black/80 active:opacity-80",
   inline: baseClasses,
 };
 

@@ -46,10 +46,6 @@ export default function Header() {
           ))}
           <WhatsAppButton variant="inline" label="Get Your Quote" />
         </nav>
-
-        <div className="lg:hidden">
-          <WhatsAppButton variant="inline" label="Get Your Quote" />
-        </div>
       </div>
     </header>
   );
