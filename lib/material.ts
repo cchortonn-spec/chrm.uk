@@ -16,13 +16,13 @@ export const MATERIAL = {
     "3M premium cast-PVC wrapping film — up to 8 year durability, 90 micron, external grade.",
 } as const;
 
-/** Items for the home-page material ticker (logo rendered separately) */
+/** Items for the home-page material ticker (3M logo rendered separately) */
 export const MATERIAL_TICKER_ITEMS = [
-  MATERIAL.name,
-  MATERIAL.type,
-  MATERIAL.durability,
-  MATERIAL.use,
-  MATERIAL.thickness,
-  MATERIAL.adhesive,
-  MATERIAL.dechroming,
+  "Premium Vehicle Wrapping Film",
+  "PPF Protection",
+  "Blackout",
+  "Paint Correction",
+  "Chrome Delete",
+  "Detailing",
+  "Winter Prep",
 ] as const;

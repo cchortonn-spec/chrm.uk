@@ -38,7 +38,7 @@ function TickerSequence({ duplicate = false }: { duplicate?: boolean }) {
 
 /**
  * Small continuous ticker under the hero:
- * 3M logo | Premium film | Cast-PVC | … | Dechroming options
+ * 3M logo | Premium Vehicle Wrapping Film | PPF | … | Winter Prep
  */
 export default function MaterialTicker() {
   return (
