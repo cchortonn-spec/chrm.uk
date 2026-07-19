@@ -20,6 +20,9 @@ const manrope = Manrope({
   display: "swap",
 });
 
+const googleSiteVerification =
+  process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION?.trim() || undefined;
+
 export const metadata: Metadata = {
   ...createMetadata({
     title: "RIGN | Refined Automotive",
@@ -27,6 +30,9 @@ export const metadata: Metadata = {
       "Refined automotive — chrome delete, detailing, and paint correction. South Yorkshire based, UK-wide.",
     canonicalPath: "/",
   }),
+  ...(googleSiteVerification
+    ? { verification: { google: googleSiteVerification } }
+    : {}),
   other: {
     "msapplication-TileColor": "#000000",
     "apple-mobile-web-app-status-bar-style": "black-translucent",
