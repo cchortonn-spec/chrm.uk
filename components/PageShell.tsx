@@ -24,7 +24,7 @@ export default function PageShell({
   return (
     <>
       <SectionWrapper className="pb-16 pt-36 md:pb-20 md:pt-44">
-        <BrandMark size="md" className="opacity-90" />
+        <BrandMark size="sm" className="opacity-80" />
         {eyebrow ? (
           <p className="accent-mark mt-6 text-[11px] font-medium tracking-[0.2em] text-accent-label uppercase">
             {eyebrow}
@@ -48,7 +48,7 @@ export default function PageShell({
           secondary
           className="section-space border-t border-border"
         >
-          <BrandMark size="md" className="mb-8 opacity-80" />
+          <BrandMark size="sm" className="mb-8 opacity-70" />
           <div className="max-w-xl">
             <h2 className="font-heading text-2xl font-medium tracking-tight md:text-3xl">
               Get Your Quote

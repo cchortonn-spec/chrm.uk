@@ -95,7 +95,7 @@ export default function HomePage() {
       {/* Services — typographic list */}
       <section className="smoke-section">
         <SectionWrapper className="section-space">
-          <BrandMark size="md" className="mb-8 opacity-80" />
+          <BrandMark size="sm" className="mb-8 opacity-70" />
           <p className="accent-mark text-[11px] font-medium tracking-[0.2em] text-accent-label uppercase">
             Services
           </p>
@@ -165,7 +165,7 @@ export default function HomePage() {
       {/* Why RIGN — ghost-numbered editorial list */}
       <section className="smoke-section">
         <SectionWrapper className="section-space">
-          <BrandMark size="md" className="mb-8 opacity-80" />
+          <BrandMark size="sm" className="mb-8 opacity-70" />
           <p className="accent-mark text-[11px] font-medium tracking-[0.2em] text-accent-label uppercase">
             Why RIGN
           </p>
@@ -290,7 +290,7 @@ export default function HomePage() {
         <SectionWrapper>
           <div className="mx-auto max-w-2xl text-center">
             <div className="mb-8 flex justify-center">
-              <BrandMark size="lg" className="opacity-90" />
+              <BrandMark size="md" className="opacity-80" />
             </div>
             <h2 className="font-heading text-3xl font-medium tracking-tight md:text-4xl">
               Send four photos.

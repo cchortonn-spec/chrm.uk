@@ -6,7 +6,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 export default function NotFound() {
   return (
     <SectionWrapper className="flex min-h-[70vh] flex-col justify-center py-32">
-      <BrandMark size="lg" className="mb-10 opacity-90" />
+      <BrandMark size="md" className="mb-10 opacity-80" />
       <p className="text-[11px] font-medium tracking-[0.2em] text-foreground-secondary uppercase">
         404
       </p>
