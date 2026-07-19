@@ -6,7 +6,7 @@ import { generateMetadata as createMetadata } from "@/lib/seo";
 export const metadata: Metadata = createMetadata({
   title: "Areas We Cover",
   description:
-    "Chrome delete across South Yorkshire — Sheffield, Doncaster, Rotherham, Barnsley — and UK-wide by appointment.",
+    "South Yorkshire coverage — Sheffield, Doncaster, Rotherham, Barnsley — and UK-wide by appointment.",
   canonicalPath: "/areas-we-cover",
 });
 

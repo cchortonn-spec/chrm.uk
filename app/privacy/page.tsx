@@ -47,7 +47,7 @@ export default function PrivacyPage() {
           <Section title="Who we are">
             <p>
               RIGN (&quot;we,&quot; &quot;us,&quot; &quot;our&quot;) provides
-              mobile chrome delete services for vehicles, based in South
+              refined automotive services for vehicles, based in South
               Yorkshire, operating across the UK. This policy explains what
               personal data we collect through rign.uk, why, and what
               rights you have over it.

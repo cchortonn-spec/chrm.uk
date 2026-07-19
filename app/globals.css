@@ -171,6 +171,11 @@ a {
   border-radius: var(--radius-pill);
 }
 
+/* Full-bleed hero — dark glass overlay (no blur) */
+.hero-glass {
+  background: rgba(0, 0, 0, 0.32);
+}
+
 /* Glossy light sweep — used directly over full-bleed photography */
 .gloss-sheen {
   background: linear-gradient(

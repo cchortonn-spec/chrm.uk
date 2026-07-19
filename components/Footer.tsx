@@ -24,7 +24,7 @@ export default function Footer() {
             className="inline-block transition-opacity duration-300 hover:opacity-85"
             aria-label="RIGN — Refined Automotive"
           >
-            <BrandMark size="md" />
+            <BrandMark size="lg" />
           </Link>
           <p className="mt-3 text-[10px] font-medium tracking-[0.18em] text-accent-label uppercase">
             Refined Automotive

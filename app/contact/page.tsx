@@ -7,7 +7,7 @@ import { generateMetadata as createMetadata } from "@/lib/seo";
 export const metadata: Metadata = createMetadata({
   title: "Contact",
   description:
-    "Get a chrome delete quote — send four photos on WhatsApp, or use the contact form.",
+    "Get a quote — send four photos on WhatsApp, or use the contact form.",
   canonicalPath: "/contact",
 });
 

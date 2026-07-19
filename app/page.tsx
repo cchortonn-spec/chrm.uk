@@ -19,18 +19,18 @@ export const metadata: Metadata = createMetadata({
 });
 
 const services = [
-  { title: "Chrome delete", hint: "Signature craft" },
+  { title: "Chrome delete", hint: "OEM+ finish" },
   { title: "Detailing", hint: "Showroom clean" },
   { title: "Paint correction", hint: "Machine polish" },
   { title: "Badges & emblems", hint: "Quiet blackout" },
   { title: "Window surrounds", hint: "Continuous silhouette" },
-  { title: "Grilles & trim", hint: "OEM+ face" },
+  { title: "Grilles & trim", hint: "Unified face" },
 ];
 
 const whyPoints = [
   {
-    title: "Signature craft first",
-    body: "Chrome delete is the proof of standard — not one line among many. Everything else is held to the same bar.",
+    title: "One standard",
+    body: "Every job — trim, detail, or correction — finished to the same quiet, dealership-grade bar.",
   },
   {
     title: "3M premium film",
@@ -41,8 +41,8 @@ const whyPoints = [
     body: "We come to you. Less disruption. Same precision.",
   },
   {
-    title: "Dealership-grade finish",
-    body: "Quiet, factory-look refinement. Nothing aftermarket about it.",
+    title: "Intentional finish",
+    body: "Factory-look refinement. Nothing aftermarket about it.",
   },
 ];
 
@@ -95,7 +95,7 @@ export default function HomePage() {
       {/* Services — typographic list */}
       <section className="smoke-section">
         <SectionWrapper className="section-space">
-          <BrandMark size="sm" className="mb-8 opacity-80" />
+          <BrandMark size="md" className="mb-8 opacity-80" />
           <p className="accent-mark text-[11px] font-medium tracking-[0.2em] text-accent-label uppercase">
             Services
           </p>
@@ -103,8 +103,8 @@ export default function HomePage() {
             What we offer
           </h2>
           <p className="mt-4 max-w-md text-base text-foreground-secondary">
-            Chrome delete leads. Detailing and paint correction sit beside it —
-            one standard throughout.
+            Exterior trim, detailing, and paint correction — refined work,
+            finished properly.
           </p>
           <ul className="mt-14 grid gap-x-12 sm:grid-cols-2">
             {services.map((item) => (
@@ -165,7 +165,7 @@ export default function HomePage() {
       {/* Why RIGN — ghost-numbered editorial list */}
       <section className="smoke-section">
         <SectionWrapper className="section-space">
-          <BrandMark size="sm" className="mb-8 opacity-80" />
+          <BrandMark size="md" className="mb-8 opacity-80" />
           <p className="accent-mark text-[11px] font-medium tracking-[0.2em] text-accent-label uppercase">
             Why RIGN
           </p>
@@ -213,8 +213,7 @@ export default function HomePage() {
                 For dealerships
               </h2>
               <p className="mt-4 max-w-md text-base text-foreground-secondary">
-                Chrome delete, detailing, correction — consistent finish,
-                reliable turnaround, built for repeat work.
+                Consistent finish. Reliable turnaround. Built for repeat work.
               </p>
             </div>
             <span className="text-xs font-medium tracking-[0.14em] text-foreground-secondary uppercase transition-colors group-hover:text-foreground">
@@ -291,7 +290,7 @@ export default function HomePage() {
         <SectionWrapper>
           <div className="mx-auto max-w-2xl text-center">
             <div className="mb-8 flex justify-center">
-              <BrandMark size="md" className="opacity-90" />
+              <BrandMark size="lg" className="opacity-90" />
             </div>
             <h2 className="font-heading text-3xl font-medium tracking-tight md:text-4xl">
               Send four photos.

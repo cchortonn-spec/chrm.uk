@@ -43,13 +43,12 @@ export default function WhatWeDoPage() {
     <PageShell
       eyebrow="Services"
       title="What we offer"
-      description="Chrome delete leads. Detailing and paint correction sit beside it — one ladder, one standard."
+      description="Chrome delete, detailing, and paint correction — finished properly, without the noise."
     >
       <SectionWrapper className="pb-24">
-        {/* Tier 1 — Chrome Delete (signature) */}
         <div className="mb-16">
           <p className="accent-mark text-[11px] font-medium tracking-[0.2em] text-accent-label uppercase">
-            Signature
+            Exterior trim
           </p>
           <h2 className="mt-3 font-heading text-2xl font-medium tracking-tight text-foreground md:text-3xl">
             Chrome delete
@@ -90,32 +89,29 @@ export default function WhatWeDoPage() {
           </div>
         </div>
 
-        {/* Tier 2 — Detailing */}
         <div className="mb-16 border-t border-border pt-16">
           <p className="accent-mark text-[11px] font-medium tracking-[0.2em] text-accent-label uppercase">
-            Offered now
+            Care
           </p>
           <h2 className="mt-3 font-heading text-2xl font-medium tracking-tight text-foreground md:text-3xl">
             Detailing
           </h2>
           <p className="mt-4 max-w-xl text-sm leading-relaxed text-foreground-secondary md:text-base">
-            Exterior and interior detailing held to the same standard as our
-            chrome delete work — quiet, thorough, showroom-ready. Ask when you
-            send photos.
+            Exterior and interior detailing — quiet, thorough, showroom-ready.
+            Ask when you send photos.
           </p>
         </div>
 
-        {/* Tier 3 — Machine polishing / paint correction */}
         <div className="border-t border-border pt-16">
           <p className="accent-mark text-[11px] font-medium tracking-[0.2em] text-accent-label uppercase">
-            Offered now
+            Finish
           </p>
           <h2 className="mt-3 font-heading text-2xl font-medium tracking-tight text-foreground md:text-3xl">
             Machine polishing / paint correction
           </h2>
           <p className="mt-4 max-w-xl text-sm leading-relaxed text-foreground-secondary md:text-base">
-            Swirl removal and paint correction via machine polish. Available
-            now — we&apos;ll scope it properly from your photos before quoting.
+            Swirl removal and paint correction via machine polish. We&apos;ll
+            scope it properly from your photos before quoting.
           </p>
         </div>
       </SectionWrapper>

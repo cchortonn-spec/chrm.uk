@@ -7,9 +7,9 @@ type BrandMarkProps = {
 };
 
 const sizeMap = {
-  sm: { width: 96, height: 64, className: "h-8 w-auto" },
-  md: { width: 140, height: 93, className: "h-11 w-auto" },
-  lg: { width: 200, height: 133, className: "h-14 w-auto sm:h-16" },
+  sm: { width: 160, height: 36, className: "h-9 w-auto sm:h-10" },
+  md: { width: 220, height: 50, className: "h-12 w-auto sm:h-14" },
+  lg: { width: 300, height: 68, className: "h-16 w-auto sm:h-20" },
 } as const;
 
 /**

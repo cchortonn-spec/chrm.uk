@@ -53,10 +53,10 @@ export default function TermsPage() {
 
           <Section title="Using this site">
             <p>
-              This site is for finding out about our chrome delete services and
-              getting in touch for a quote. You agree not to misuse the site,
-              attempt to access it in unauthorised ways, or use it for any
-              unlawful purpose.
+              This site is for finding out about our services and getting in
+              touch for a quote. You agree not to misuse the site, attempt to
+              access it in unauthorised ways, or use it for any unlawful
+              purpose.
             </p>
           </Section>
 

@@ -6,7 +6,7 @@ import { generateMetadata as createMetadata } from "@/lib/seo";
 export const metadata: Metadata = createMetadata({
   title: "Pricing",
   description:
-    "What chrome delete costs and what affects the price — components, vehicle size, and finish.",
+    "What affects the quote — scope of work, vehicle size, and finish. Send photos for a clear price.",
   canonicalPath: "/pricing",
 });
 

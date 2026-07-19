@@ -23,11 +23,11 @@ export default function Header() {
           <Image
             src="/rign-logo/rign-header-logo.png"
             alt="RIGN — Refined Automotive"
-            width={1536}
-            height={1024}
+            width={968}
+            height={226}
             priority
-            sizes="(max-width: 768px) 140px, 180px"
-            className="h-12 w-auto sm:h-14 md:h-16"
+            sizes="(max-width: 768px) 200px, 280px"
+            className="h-14 w-auto sm:h-16 md:h-[4.5rem]"
           />
         </Link>
 

@@ -15,7 +15,7 @@ type HeroProps = {
  */
 export default function Hero({
   headline = "Refined automotive.",
-  subheadline = "Chrome delete as the signature. Detailing and paint correction alongside. South Yorkshire based. UK-wide.",
+  subheadline = "Chrome delete, detailing, and paint correction. South Yorkshire based. UK-wide.",
   ctaLabel = "Get Your Quote",
 }: HeroProps) {
   return (
@@ -32,9 +32,12 @@ export default function Hero({
       {/* Glossy sheen sweep */}
       <div className="gloss-sheen absolute inset-0" aria-hidden />
 
-      {/* Depth gradient so text stays legible */}
+      {/* Dark glass overlay — soft, keeps the photo visible */}
+      <div className="hero-glass absolute inset-0" aria-hidden />
+
+      {/* Light depth at the bottom for text */}
       <div
-        className="absolute inset-0 bg-gradient-to-t from-black via-black/45 to-black/10"
+        className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/15 to-transparent"
         aria-hidden
       />
 
