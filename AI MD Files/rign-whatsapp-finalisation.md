@@ -1,4 +1,4 @@
-# CHRM UK — WhatsApp Button Finalisation
+# RIGN — WhatsApp Button Finalisation
 
 Paste into Cursor to complete the WhatsApp CTA — the primary
 conversion mechanism on the site.
@@ -6,7 +6,7 @@ conversion mechanism on the site.
 ---
 
 ## Number
-Confirmed: this is the CHRM UK business WhatsApp, deliberately the same
+Confirmed: this is the RIGN business WhatsApp, deliberately the same
 number used elsewhere as a personal business line — not a mix-up.
 
 ## `.env.local`
@@ -24,7 +24,8 @@ https://wa.me/{NEXT_PUBLIC_WHATSAPP_NUMBER}?text={encoded pre-filled message}
 
 Pre-filled message (URL-encoded), used to reduce friction and reinforce
 the 4-photo CTA:
-> "Hi, I'd like a quote for chrome delete — I'll send over some photos."
+> "Hi, I'd like a quote — I'll send over some photos and let you know
+> what I'm after."
 
 **No hardcoded numbers anywhere.** Every instance — hero, sticky mobile
 bar, header, footer, gallery captions, contact page — must pull from
@@ -38,7 +39,7 @@ serious car owners, not a boiler-repair callout site. Style
 accordingly:
 
 - **No WhatsApp default green bubble, no pulsing/flashing animation.**
-  Use the CHRM UK colour palette from `chrmbranding.md` throughout —
+  Use the RIGN colour palette from `rignbranding.md` throughout —
   not WhatsApp's brand green — unless that palette specifically calls
   for it as an accent
 - **One consistent button style and size** across every placement —

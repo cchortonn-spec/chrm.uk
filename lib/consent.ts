@@ -1,5 +1,5 @@
-export const CONSENT_STORAGE_KEY = "chrm-cookie-consent";
-export const CONSENT_OPEN_EVENT = "chrm-open-cookie-settings";
+export const CONSENT_STORAGE_KEY = "rign-cookie-consent";
+export const CONSENT_OPEN_EVENT = "rign-open-cookie-settings";
 
 export type ConsentState = {
   /** Essential cookies — always true, cannot be turned off */
@@ -40,7 +40,7 @@ export function writeConsent(next: Omit<ConsentState, "essential">) {
   };
   window.localStorage.setItem(CONSENT_STORAGE_KEY, JSON.stringify(state));
   window.dispatchEvent(
-    new CustomEvent("chrm-consent-updated", { detail: state })
+    new CustomEvent("rign-consent-updated", { detail: state })
   );
   return state;
 }

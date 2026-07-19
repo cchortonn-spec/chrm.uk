@@ -30,7 +30,7 @@ function Section({
 }
 
 export default function PrivacyPage() {
-  /* Working draft from chrm-uk-legal-copy.md — recommend solicitor review before launch. */
+  /* Working draft from rign-legal-copy.md — recommend solicitor review before launch. */
   return (
     <PageShell
       eyebrow="Legal"

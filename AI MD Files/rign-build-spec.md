@@ -1,22 +1,22 @@
-# CHRM UK — Build Spec
+# RIGN — Build Spec
 
 For all visual design — colours, typography, logo, imagery style —
-refer to **chrmbranding.md**. This document covers content, structure,
+refer to **rignbranding.md**. This document covers content, structure,
 SEO, and technical requirements only.
 
 ---
 
 ## 1. Brand & positioning
 
-- **Name:** CHRM UK
-- **Domain:** chrmuk.com
-- **What we do:** Mobile chrome delete specialists — blacking out and
-  removing chrome trim from badges, window surrounds, grilles, bumpers,
-  door handles, mirror caps, and more.
+- **Name:** RIGN
+- **Domain:** rign.uk
+- **What we do:** Refined automotive services — chrome delete
+  (blacking out and removing chrome trim from badges, window
+  surrounds, grilles, bumpers, door handles, mirror caps, and more),
+  detailing, and machine polishing / paint correction.
 - **Position:** Not a general wrap company. Most competitors in this
   space are wrap shops treating chrome delete as one line among many —
-  CHRM is a specialist in this one thing, aiming to do it better than
-  anyone else in the country.
+  RIGN treats every service to the same specialist standard.
 - **Who it's for:** high-end/performance car owners, car dealerships
   (trade/repeat business), general public wanting a factory-look
   upgrade.
@@ -27,9 +27,10 @@ SEO, and technical requirements only.
 **Keyword note:** "chrome delete" is the dominant, most-searched
 industry term — used more than "de-chrome" as a standalone phrase
 across the automotive customisation space. Build titles, H1s, and meta
-around "chrome delete" as the anchor term. Use "de-chrome,"
-"de-chroming," and "blackout" naturally as supporting phrasing
-throughout — people do search these too, just not as the primary term.
+around "chrome delete" as an anchor term where relevant. Use
+"de-chrome," "de-chroming," and "blackout" naturally as supporting
+phrasing throughout — people do search these too, just not as the
+primary term.
 
 ---
 
@@ -55,30 +56,25 @@ A standard contact form should still exist (for people who won't use
 WhatsApp, and for a written record via Resend) — but visually and in
 copy, WhatsApp leads throughout.
 
-**WhatsApp number: TBD.** Needs a real CHRM UK number before build —
-don't default to the Sheffield or WRPX number without deciding that
-deliberately.
-
 ---
 
 ## 3. Site structure
 
 ### Home
-- Hero: chrome delete specialists, mobile, UK-wide, based South
-  Yorkshire, WhatsApp CTA
+- Hero: refined automotive, mobile, UK-wide, based South Yorkshire,
+  WhatsApp CTA
 - Trust bar: fully insured, mobile service, UK-wide, South Yorkshire
   based
-- "What we chrome-delete" teaser (links to full pillar page)
-- Before/after strip — real cars, real work
-- Why CHRM — specialists not generalists, mobile convenience,
-  dealership-grade finish
+- "What we offer" teaser (links to full pillar page)
+- Recent fits strip — real cars, real work
+- Why RIGN — one standard, mobile convenience, dealership-grade finish
 - Dealerships teaser (links through)
 - Areas covered teaser
 - FAQ preview (3–4 questions)
 - Final WhatsApp CTA
 
 ### Gallery
-- Real before/after work — grouped by component (badges / grilles /
+- Real completed work — grouped by component (badges / grilles /
   trims / bumpers / handles) once there's enough volume, single grid
   to start
 - Every image captioned with make/model + what was done — a good
@@ -87,11 +83,11 @@ deliberately.
   the AI-overview requirement below
 
 ### About
-- The specialist behind CHRM, why chrome delete specifically,
-  insurance/credentials, what "mobile" means in practice
+- Who RIGN is, what services are offered and why, insurance/
+  credentials, what "mobile" means in practice
 
-### What We Chrome-Delete (the pillar page)
-This is "Services," restructured as the highest-value page for your
+### What We Offer (the pillar page)
+This is "Services," restructured as the highest-value page for the
 SEO strategy — not a flat list. Real, self-contained sections for:
 - Badge & emblem delete
 - Window trim / surround delete
@@ -99,17 +95,19 @@ SEO strategy — not a flat list. Real, self-contained sections for:
 - Bumper trim delete
 - Door handle delete
 - Mirror cap delete
+- Detailing
+- Machine polishing / paint correction
 
 Each section: what it involves, how long it lasts, typical cost range,
-before/after example. As the site grows, each of these can graduate
-into its own full page — that's the topic cluster. Build the pillar
-now so expansion is a natural extension, not a rebuild.
+example work. As the site grows, each of these can graduate into its
+own full page — that's the topic cluster. Build the pillar now so
+expansion is a natural extension, not a rebuild.
 
 ### Pricing / What Affects Cost
 Transparent range + explanation of what changes price (number of
-components, car size, finish). Directly serves the AI-overview
-requirement — fully answers "how much does chrome delete cost" without
-needing the rest of the site read.
+components, car size, finish, service type). Directly serves the
+AI-overview requirement — fully answers "how much does chrome delete
+cost" without needing the rest of the site read.
 
 ### For Dealerships
 Speaks directly to trade clients: turnaround time, repeat/bulk work,
@@ -122,7 +120,7 @@ retail pages — this is a B2B pitch, not a homeowner-style sell.
 - Clear "UK-wide by appointment" section for the nationwide/high-end
   angle — be upfront that travel is available for the right job,
   without implying local presence everywhere (that would undercut the
-  South Yorkshire local SEO you actually want to win)
+  South Yorkshire local SEO actually being targeted)
 
 ### FAQ
 Real, self-contained, conversational answers matching how people
@@ -137,10 +135,10 @@ formatting rule for AI Overview inclusion.
 ### Guides (Phase 2 — scaffold the route now, don't populate at launch)
 Genuine long-form pillar content — "Complete Guide to Chrome Delete on
 a BMW," "Chrome Delete vs Plasti Dip vs Paint," etc. This is what
-actually builds the topic-cluster depth you're after. Launch with the
-core pages; add guides once there's real capacity to write them
-properly. A shallow blog with thin posts works against you, not for
-you — don't rush this section.
+actually builds the topic-cluster depth being targeted. Launch with
+the core pages; add guides once there's real capacity to write them
+properly. A shallow blog with thin posts works against this, not for
+it — don't rush this section.
 
 ### Contact
 WhatsApp front and centre with the 4-photo instruction, form as
@@ -157,7 +155,7 @@ cookies before consent otherwise.
 - **E-commerce/cart** — not needed, this is a booked service
 - **User accounts/login** — no need
 - **A second live chat widget** — WhatsApp is the chat; adding another
-  dilutes the single obvious CTA you're going for
+  dilutes the single obvious CTA being targeted
 - **Quote calculator at launch** — the WhatsApp photo method is
   deliberately replacing that friction, don't reintroduce it
 - **Blog in the "frequent short posts" sense** — Guides only, and only
@@ -166,11 +164,11 @@ cookies before consent otherwise.
 ---
 
 ## 4. Contact & lead routing
-- WhatsApp: number TBD (see above)
-- Email: info@chrmuk.com via Resend, delivering to chrm.uk@proton.me
-- Subject line prefix: "[CHRM UK]" on all form-submission emails —
-  same pattern as other sites, in case this inbox ever handles more
-  than one brand's leads
+- WhatsApp: business number, pulled from env, never hardcoded
+- Email: info@rign.uk via Resend, delivering to rign.uk@gmail.com
+- Subject line prefix: "[RIGN]" on all form-submission emails — same
+  pattern as other sites, in case this inbox ever handles more than
+  one brand's leads
 
 ---
 
@@ -183,16 +181,15 @@ cookies before consent otherwise.
   actually type into Google or ask an AI assistant, not as a keyword
   list.
 - **Full schema coverage** — LocalBusiness/AutomotiveBusiness sitewide,
-  Service schema on the What We Chrome-Delete page and its
-  sub-sections, FAQPage schema on the FAQ page, BreadcrumbList
-  sitewide, Review schema once real reviews exist.
+  Service schema on the What We Offer page and its sub-sections,
+  FAQPage schema on the FAQ page, BreadcrumbList sitewide, Review
+  schema once real reviews exist.
 - **Freshness signals** — visible "last updated" dates on Pricing and
   Guides content, and an actual habit of reviewing/updating them, not
   just a date stamp sitting over stale content.
-- **Topic cluster architecture** — What We Chrome-Delete is the
-  pillar; each component becomes cluster content over time; Guides
-  reinforce the same cluster; everything links back to the pillar and
-  to each other.
+- **Topic cluster architecture** — What We Offer is the pillar; each
+  component becomes cluster content over time; Guides reinforce the
+  same cluster; everything links back to the pillar and to each other.
 - **Error-free indexing** — correct sitemap.xml and robots.txt from
   day one, Search Console verified and monitored, no orphaned or
   broken routes.
@@ -201,16 +198,16 @@ cookies before consent otherwise.
   specifically — this is both the majority of local search traffic and
   where social traffic lands.
 - **Competitor gap check before writing** — research what current
-  chrome delete/wrap competitors' pages actually cover, and make sure
-  CHRM's pages go further. One-time pass at launch, then an ongoing
-  job once the daily SEO automation is wired up here too.
+  chrome delete/wrap/detailing competitors' pages actually cover, and
+  make sure RIGN's pages go further. One-time pass at launch, then an
+  ongoing job once the daily SEO automation is wired up here too.
 
 ---
 
 ## 6. Analytics
-- GA4 (new property), Google Search Console, Google Tag Manager, Bing
-  Webmaster Tools, Microsoft Clarity
+- GA4, Google Search Console, Google Tag Manager, Bing Webmaster
+  Tools, Microsoft Clarity
 - Custom events: `whatsapp_click`, `form_submit`, `phone_click` (if a
   direct number is added later), `gallery_view`
-- No custom dashboard for now — same as the Sheffield build. Keep this
-  lean until there's a real reason to add one.
+- No custom dashboard for now — keep this lean until there's a real
+  reason to add one.

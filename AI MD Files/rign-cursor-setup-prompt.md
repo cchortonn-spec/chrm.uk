@@ -1,18 +1,19 @@
-# CHRM UK — Cursor Build Prompt (Step 1: Foundation)
+# RIGN — Cursor Build Prompt (Step 1: Foundation)
 
-Paste this into Cursor as the first build step, before chrmbranding.md or
-chrm-uk-build-spec.md are ready.
+Paste this into Cursor as the first build step, before rignbranding.md or
+rign-build-spec.md are ready.
 
 ---
 
-You are setting up the technical foundation for a new website: **CHRM UK**
-(chrmuk.com), a mobile chrome delete specialist for high-end vehicles,
-based in South Yorkshire, operating UK-wide.
+You are setting up the technical foundation for a new website: **RIGN**
+(rign.uk), a refined automotive specialist (chrome delete, detailing,
+paint correction) for high-end vehicles, based in South Yorkshire,
+operating UK-wide.
 
 This is Step 1 only: build the working technical skeleton. Do NOT write
 final page copy, do NOT invent a colour scheme or typography, and do NOT
 guess at visual design. Two more documents are coming next —
-`chrmbranding.md` (visual system) and `chrm-uk-build-spec.md` (content and
+`rignbranding.md` (visual system) and `rign-build-spec.md` (content and
 page-by-page requirements) — this step exists purely so the technical
 foundation is ready before either of those land.
 
@@ -71,8 +72,8 @@ Correct structure and props, placeholder styling only:
   analytics.ts    → GA4 event helpers: trackWhatsAppClick(), 
                     trackFormSubmit(), trackPhoneClick(), 
                     trackGalleryView()
-  resend.ts       → sends to info@chrmuk.com, delivers to 
-                    chrm.uk@proton.me, subject prefixed "[CHRM UK]"
+  resend.ts       → sends to info@rign.uk, delivers to 
+                    rign.uk@gmail.com, subject prefixed "[RIGN]"
   seo.ts          → generateMetadata() helper so every route produces 
                     its own title/description/OG/Twitter tags from one 
                     content object — this MUST be dynamic per page. 
@@ -86,7 +87,7 @@ Correct structure and props, placeholder styling only:
   `NEXT_PUBLIC_WHATSAPP_NUMBER`, `RESEND_API_KEY`, `CONTACT_EMAIL_TO`,
   `NEXT_PUBLIC_SITE_URL`
 - Tailwind config with a clearly commented placeholder token block —
-  mark colour/font values with `// REPLACE WITH chrmbranding.md VALUES`,
+  mark colour/font values with `// REPLACE WITH rignbranding.md VALUES`,
   don't invent a look
 - `next.config` with image optimisation enabled, remote patterns ready
   for Supabase/CDN-hosted images
@@ -105,9 +106,9 @@ branding or copy)
 
 ## Git / deploy
 - Initialise git, sensible `.gitignore`
-- Ready for a new Vercel project, domain `chrmuk.com` via Namecheap DNS
-- `README.md` noting: "Step 2 = drop in chrmbranding.md for design
-  tokens. Step 3 = drop in chrm-uk-build-spec.md for content and page
+- Ready for a new Vercel project, domain `rign.uk`
+- `README.md` noting: "Step 2 = drop in rignbranding.md for design
+  tokens. Step 3 = drop in rign-build-spec.md for content and page
   build."
 
 When finished, summarise what was built and flag anything you had to

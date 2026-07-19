@@ -1,9 +1,9 @@
-# CHRM Brand Identity
+# RIGN Brand Identity
 
-File: chrmbranding.md
+File: rignbranding.md
 
 This file defines the complete visual identity, user experience, design
-philosophy and emotional direction of the CHRM website.
+philosophy and emotional direction of the RIGN website.
 
 Every page, component and interaction must reference this document
 before being created.
@@ -13,8 +13,8 @@ The goal is not to build another vehicle wrapping website.
 The goal is to build a luxury automotive brand that happens to offer
 exterior trim styling.
 
-Our flagship service is vehicle de-chroming, but our customers are
-buying a cleaner, more refined version of their vehicle---not vinyl.
+Chrome delete is one of our services, but our customers are buying a
+cleaner, more refined version of their vehicle---not vinyl.
 
 Everything should feel OEM+.
 
@@ -116,9 +116,7 @@ Use:
 
 `rgba(255,255,255,0.72)`
 
-Accent colours should not exist.
-
-Photography is the colour.
+Accent colours should stay minimal. Photography is the colour.
 
 ------------------------------------------------------------------------
 
@@ -126,17 +124,11 @@ Photography is the colour.
 
 ## Primary Logo
 
-CHRM
+RIGN — angular wordmark, brushed-metal/silver on black
 
-Exterior Trim Specialists
+## Tagline
 
-## Secondary Logo
-
-CR Icon
-
-## Brand Badge
-
-Circular CR emblem
+REFINED AUTOMOTIVE — small, letter-spaced, understated
 
 Use whichever version best suits the available space.
 
@@ -150,14 +142,13 @@ Never add effects.
 
 # Logo Design Language
 
--   45° chamfers
+-   Sharp, angular geometry
 -   Constant stroke width
--   Sharp geometry
 -   Plenty of spacing
--   Black & White only
--   No gradients
+-   Monochrome — black & white / brushed silver only
+-   No gradients faking the metallic finish — use the logo as a proper
+    image asset
 -   No bevels
--   No fake chrome
 -   No carbon fibre textures
 -   No flames
 -   No racing graphics

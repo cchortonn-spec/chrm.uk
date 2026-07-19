@@ -1,4 +1,4 @@
-# CHRM UK — Legal Copy & Cookie Consent
+# RIGN — Legal Copy & Cookie Consent
 
 Not legal advice — solid working draft. Recommend a solicitor pass
 before this goes live, particularly on the vehicle-photo/gallery
@@ -11,12 +11,12 @@ consent wording and the dealership-facing terms.
 *Last updated: [DATE]*
 
 ### Who we are
-CHRM UK ("we," "us," "our") provides mobile chrome delete services for
+RIGN ("we," "us," "our") provides refined automotive services for
 vehicles, based in South Yorkshire, operating across the UK. This
-policy explains what personal data we collect through chrmuk.com, why,
+policy explains what personal data we collect through rign.uk, why,
 and what rights you have over it.
 
-Contact for any privacy query: **info@chrmuk.com**
+Contact for any privacy query: **info@rign.uk**
 
 ### What we collect
 
@@ -74,7 +74,7 @@ Under UK GDPR, you can ask us to:
 - Restrict or object to how we use your data
 - Move your data to another provider
 
-To exercise any of these, email **info@chrmuk.com**. You can also
+To exercise any of these, email **info@rign.uk**. You can also
 complain to the Information Commissioner's Office (ICO) at ico.org.uk
 if you think we've mishandled your data.
 
@@ -89,13 +89,12 @@ changes. Significant changes will be flagged clearly on the site.
 *Last updated: [DATE]*
 
 ### About us
-This website is operated by CHRM UK, based in South Yorkshire, England.
+This website is operated by RIGN, based in South Yorkshire, England.
 
 ### Using this site
-This site is for finding out about our chrome delete services and
-getting in touch for a quote. You agree not to misuse the site,
-attempt to access it in unauthorised ways, or use it for any unlawful
-purpose.
+This site is for finding out about our services and getting in touch
+for a quote. You agree not to misuse the site, attempt to access it in
+unauthorised ways, or use it for any unlawful purpose.
 
 ### Quotes and pricing
 Prices shown on this site are indicative and based on typical jobs.
@@ -106,7 +105,7 @@ a booking with us.
 
 ### Content and intellectual property
 All content on this site — text, images, logo, and design — belongs
-to CHRM UK unless otherwise stated, and shouldn't be copied or reused
+to RIGN unless otherwise stated, and shouldn't be copied or reused
 without permission.
 
 ### Liability
@@ -116,7 +115,7 @@ guarantee it will always be error-free or uninterrupted. Nothing in
 these terms limits our liability where it can't legally be limited
 (e.g. for negligence causing personal injury).
 
-*Note: these are website terms only, covering use of chrmuk.com. Your
+*Note: these are website terms only, covering use of rign.uk. Your
 separate terms of business (covering the actual paid work — deposits,
 cancellations, guarantees, liability for the physical job) should be
 a distinct document, given to customers and dealership clients at the
@@ -131,7 +130,7 @@ we don't control.
 These terms are governed by the law of England and Wales.
 
 ### Contact
-Questions about these terms: **info@chrmuk.com**
+Questions about these terms: **info@rign.uk**
 
 ---
 

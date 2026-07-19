@@ -1,7 +1,7 @@
 /**
  * Tailwind CSS v4 — CSS-first config in app/globals.css.
  *
- * Brand tokens from chrmbranding.md:
+ * Brand tokens from rignbranding.md:
  *   background           #000000
  *   background-secondary #090909
  *   card                 #111111
