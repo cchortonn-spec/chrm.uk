@@ -40,7 +40,7 @@ export const brandMark = {
 /** Dark cinematic vehicle backdrops for home MistBand sections — each unique */
 export const bandBackdrops = {
   dealerships: `${NEW}/rsq7-landscape.webp`,
-  areas: `${NEW}/bmw-landscape.webp`,
+  areas: `${NEW}/audi-s8-landscape.webp`,
   faq: `${NEW}/black-car-detail-landscape.webp`,
 } as const;
 
@@ -86,11 +86,6 @@ export const homeSlideshowDesktop: SiteImage[] = [
     src: `${NEW}/rsq7-landscape.webp`,
     alt: "Audi RS Q7 — studio landscape",
     caption: "RS Q7",
-  },
-  {
-    src: `${NEW}/bmw-landscape.webp`,
-    alt: "BMW — studio landscape",
-    caption: "BMW",
   },
   {
     src: `${NEW}/black-car-detail-landscape.webp`,
