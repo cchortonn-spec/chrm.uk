@@ -71,19 +71,20 @@ const trustItems = [
 export default function HomePage() {
   return (
     <>
-      <Hero />
+      {/* First viewport: hero fills the screen, ticker sits on the bottom edge */}
+      <div className="flex min-h-dvh flex-col">
+        <Hero />
+        <MaterialTicker />
+      </div>
 
-      {/* 3M material ticker — small strip under hero */}
-      <MaterialTicker />
-
-      {/* Trust line — glass pills */}
+      {/* Trust line */}
       <section className="smoke-section border-b border-white/10 bg-background-secondary/80">
         <SectionWrapper className="section-space-sm">
           <ul className="flex flex-wrap items-center justify-center gap-3 md:gap-4">
             {trustItems.map((item) => (
               <li
                 key={item}
-                className="glass glass-pill px-4 py-2 text-[10px] font-medium tracking-[0.18em] text-foreground-secondary uppercase sm:text-[11px]"
+                className="border border-white/12 px-4 py-2 text-[10px] font-medium tracking-[0.18em] text-foreground-secondary uppercase sm:text-[11px]"
               >
                 {item}
               </li>
@@ -124,7 +125,7 @@ export default function HomePage() {
           <div className="mt-10">
             <Link
               href="/what-we-do"
-              className="glass glass-pill inline-flex px-5 py-2.5 text-xs font-medium tracking-[0.14em] text-foreground uppercase transition-opacity hover:opacity-80"
+              className="inline-flex border border-white/15 px-5 py-2.5 text-[11px] font-medium tracking-[0.14em] text-foreground uppercase transition-opacity hover:opacity-80"
             >
               View all services →
             </Link>
@@ -262,7 +263,7 @@ export default function HomePage() {
             </div>
             <Link
               href="/faq"
-              className="glass glass-pill inline-flex px-5 py-2.5 text-xs font-medium tracking-[0.14em] text-foreground-secondary uppercase transition-colors hover:text-foreground"
+              className="inline-flex border border-white/15 px-5 py-2.5 text-[11px] font-medium tracking-[0.14em] text-foreground-secondary uppercase transition-colors hover:text-foreground"
             >
               All questions →
             </Link>

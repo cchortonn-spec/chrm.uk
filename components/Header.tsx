@@ -14,7 +14,7 @@ const navLinks = [
 export default function Header() {
   return (
     <header className="absolute inset-x-0 top-0 z-40">
-      <div className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-5 py-5 md:px-8 md:py-6">
+      <div className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-5 py-4 md:px-8 md:py-6">
         <Link
           href="/"
           className="shrink-0 transition-opacity duration-300 hover:opacity-85"
@@ -26,8 +26,8 @@ export default function Header() {
             width={968}
             height={226}
             priority
-            sizes="(max-width: 768px) 200px, 280px"
-            className="h-14 w-auto sm:h-16 md:h-[4.5rem]"
+            sizes="(max-width: 768px) 140px, 220px"
+            className="h-8 w-auto sm:h-10 md:h-12"
           />
         </Link>
 

@@ -3,7 +3,6 @@ import Script from "next/script";
 import { Manrope, Outfit } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import StickyMobileCTA from "@/components/StickyMobileCTA";
 import Analytics from "@/components/Analytics";
 import JsonLd from "@/components/JsonLd";
 import { generateMetadata as createMetadata } from "@/lib/seo";
@@ -89,7 +88,6 @@ export default function RootLayout({
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
-        <StickyMobileCTA />
       </body>
     </html>
   );
