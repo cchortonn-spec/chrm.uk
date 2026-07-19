@@ -1,119 +1,61 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import PageShell from "@/components/PageShell";
 import SectionWrapper from "@/components/SectionWrapper";
-import { MATERIAL } from "@/lib/material";
+import { SERVICES } from "@/lib/services-data";
 import { generateMetadata as createMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = createMetadata({
-  title: "Services",
+  title: "Services — Chrome Delete, PPF, Detailing & Paint Correction",
   description:
-    "Chrome delete, detailing, and machine polishing / paint correction — refined automotive services from RIGN.",
+    "RIGN services in South Yorkshire: chrome delete, paint protection film (PPF), detailing, and paint correction. Mobile from Sheffield & surrounding.",
   canonicalPath: "/what-we-do",
 });
-
-const chromeDeleteSections = [
-  {
-    title: "Badge & emblem delete",
-    body: "Factory badges and emblems, finished in satin or gloss black. Cleaner lines. Same presence.",
-  },
-  {
-    title: "Window trim / surround delete",
-    body: "Window surrounds blacked out for a continuous, showroom-quiet silhouette.",
-  },
-  {
-    title: "Grille delete",
-    body: "Front grille trim refined to match the rest of the exterior — no aftermarket shout.",
-  },
-  {
-    title: "Bumper trim delete",
-    body: "Lower and upper bumper chrome, brought into a single dark finish.",
-  },
-  {
-    title: "Door handle delete",
-    body: "Handles finished to sit with the body colour language — subtle, precise.",
-  },
-  {
-    title: "Mirror cap delete",
-    body: "Mirror caps blacked out for a cohesive OEM+ look across the vehicle.",
-  },
-];
 
 export default function WhatWeDoPage() {
   return (
     <PageShell
       eyebrow="Services"
       title="What we offer"
-      description="Chrome delete, detailing, and paint correction — finished properly, without the noise."
+      description="Chrome delete, PPF, detailing, and paint correction — each finished properly, without the noise. Choose a service below for full detail."
     >
       <SectionWrapper className="pb-24">
-        <div className="mb-16">
-          <p className="accent-mark text-[11px] font-medium tracking-[0.2em] text-accent-label uppercase">
-            Exterior trim
-          </p>
-          <h2 className="mt-3 font-heading text-2xl font-medium tracking-tight text-foreground md:text-3xl">
-            Chrome delete
-          </h2>
-          <p className="mt-4 max-w-xl text-sm leading-relaxed text-foreground-secondary md:text-base">
-            Exterior trim, one component at a time — finished with{" "}
-            {MATERIAL.brand} {MATERIAL.name}. {MATERIAL.durability}.
-          </p>
+        <ul className="divide-y divide-border border-y border-border">
+          {SERVICES.map((service) => (
+            <li key={service.slug}>
+              <Link
+                href={service.href}
+                className="group flex flex-col gap-3 py-10 transition-opacity hover:opacity-90 md:flex-row md:items-end md:justify-between md:py-12"
+              >
+                <div className="max-w-xl">
+                  <p className="accent-mark text-[11px] font-medium tracking-[0.2em] text-accent-label uppercase">
+                    {service.eyebrow}
+                  </p>
+                  <h2 className="mt-3 font-heading text-2xl font-medium tracking-tight text-foreground md:text-3xl">
+                    {service.name}
+                  </h2>
+                  <p className="mt-3 text-sm leading-relaxed text-foreground-secondary md:text-base">
+                    {service.intro.slice(0, 160).trim()}…
+                  </p>
+                </div>
+                <span className="shrink-0 text-xs font-medium tracking-[0.14em] text-foreground-secondary uppercase transition-colors group-hover:text-foreground">
+                  View service →
+                </span>
+              </Link>
+            </li>
+          ))}
+        </ul>
 
-          <div className="mt-10 mb-10 max-w-2xl border-b border-border pb-10">
-            <p className="accent-mark text-[11px] font-medium tracking-[0.2em] text-accent-label uppercase">
-              Material
-            </p>
-            <h3 className="mt-3 font-heading text-xl font-medium tracking-tight text-foreground">
-              {MATERIAL.brand} {MATERIAL.name}
-            </h3>
-            <ul className="mt-6 space-y-2 text-sm text-foreground-secondary">
-              <li>{MATERIAL.type}</li>
-              <li>{MATERIAL.durability}</li>
-              <li>{MATERIAL.use}</li>
-              <li>{MATERIAL.thickness}</li>
-              <li>{MATERIAL.adhesive}</li>
-              <li>{MATERIAL.dechroming}</li>
-            </ul>
-          </div>
-
-          <div className="divide-y divide-border border-y border-border">
-            {chromeDeleteSections.map((section) => (
-              <article key={section.title} className="py-10 md:py-12">
-                <h3 className="font-heading text-xl font-medium tracking-tight text-foreground md:text-2xl">
-                  {section.title}
-                </h3>
-                <p className="mt-3 max-w-xl text-sm leading-relaxed text-foreground-secondary md:text-base">
-                  {section.body}
-                </p>
-              </article>
-            ))}
-          </div>
-        </div>
-
-        <div className="mb-16 border-t border-border pt-16">
-          <p className="accent-mark text-[11px] font-medium tracking-[0.2em] text-accent-label uppercase">
-            Care
-          </p>
-          <h2 className="mt-3 font-heading text-2xl font-medium tracking-tight text-foreground md:text-3xl">
-            Detailing
-          </h2>
-          <p className="mt-4 max-w-xl text-sm leading-relaxed text-foreground-secondary md:text-base">
-            Exterior and interior detailing — quiet, thorough, showroom-ready.
-            Ask when you send photos.
-          </p>
-        </div>
-
-        <div className="border-t border-border pt-16">
-          <p className="accent-mark text-[11px] font-medium tracking-[0.2em] text-accent-label uppercase">
-            Finish
-          </p>
-          <h2 className="mt-3 font-heading text-2xl font-medium tracking-tight text-foreground md:text-3xl">
-            Machine polishing / paint correction
-          </h2>
-          <p className="mt-4 max-w-xl text-sm leading-relaxed text-foreground-secondary md:text-base">
-            Swirl removal and paint correction via machine polish. We&apos;ll
-            scope it properly from your photos before quoting.
-          </p>
-        </div>
+        <p className="mt-12 text-sm text-foreground-secondary">
+          Looking for coverage? See{" "}
+          <Link
+            href="/areas-we-cover"
+            className="text-foreground underline-offset-4 hover:underline"
+          >
+            areas we cover
+          </Link>{" "}
+          across South Yorkshire and surrounding towns.
+        </p>
       </SectionWrapper>
     </PageShell>
   );
