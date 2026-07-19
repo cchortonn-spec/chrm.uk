@@ -65,9 +65,9 @@ export default function RootLayout({
   return (
     <html
       lang="en-GB"
-      className={`${outfit.variable} ${manrope.variable} h-full antialiased`}
+      className={`${outfit.variable} ${manrope.variable} min-h-dvh antialiased`}
     >
-      <body className="flex min-h-full flex-col bg-background text-foreground">
+      <body className="flex min-h-dvh flex-col bg-background text-foreground">
         {/* Consent Mode v2 — denied by default before any analytics tags */}
         <Script id="consent-mode-default" strategy="beforeInteractive">
           {`
