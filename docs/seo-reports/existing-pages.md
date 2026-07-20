@@ -30,6 +30,7 @@ not-found routes are not content pages.
 | `/services/chrome-delete` | Yes | Yes | Yes |
 | `/services/chrome-delete/sheffield` | Yes | Yes | No — new this run |
 | `/services/detailing` | Yes | Yes | Yes |
+| `/services/detailing/rotherham` | Yes | Yes | No — new this run |
 | `/services/paint-correction` | Yes | Yes | Yes |
 | `/services/paint-protection-film` | Yes | Yes | Yes |
 | `/terms` | Yes | Yes | Yes |
@@ -43,6 +44,10 @@ not-found routes are not content pages.
   Sheffield-specific road and winter-maintenance context, local finish
   guidance, component scoping, mobile-location guidance, and a unique process
   order.
+- `/services/detailing/rotherham` is also a new, non-conflicting route. Its
+  condition-led package choices, Rotherham winter-road evidence, mobile-site
+  suitability guidance, and quote-photo checklist do not repeat the detailing
+  pillar, Rotherham hub, or Sheffield combination page.
 - Existing town pages remain the highest similarity risk: live five-word
   shingle comparisons measured 21.5%–26.8% similarity between town-page
   pairs, largely because they use the same short shared structure.

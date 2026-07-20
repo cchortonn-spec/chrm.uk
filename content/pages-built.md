@@ -35,3 +35,4 @@ The following public routes returned HTTP 200 on `https://www.rign.uk`:
 | Date | Route | Category | Status |
 |---|---|---|---|
 | 2026-07-20 | `/services/chrome-delete/sheffield` | A — service × town | Built and awaiting branch deployment |
+| 2026-07-20 | `/services/detailing/rotherham` | A — service × town | Built and awaiting branch deployment |

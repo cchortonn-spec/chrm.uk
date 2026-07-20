@@ -9,7 +9,7 @@ Legend: A = service × town, B = brand/guide, C = remaining town, D =
 freshness maintenance.
 
 1. [x] **A — Chrome delete × Sheffield** — `/services/chrome-delete/sheffield` (built 2026-07-20)
-2. [ ] **A — Detailing × Rotherham**
+2. [x] **A — Detailing × Rotherham** — `/services/detailing/rotherham` (built 2026-07-20)
 3. [ ] **B — Paint correction vs full respray**
 4. [ ] **A — Paint correction × Barnsley**
 5. [ ] **A — PPF × Chesterfield**

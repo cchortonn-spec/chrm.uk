@@ -14,11 +14,16 @@ export type PageSeoConfig = {
   index?: boolean;
 };
 
-function getSiteUrl() {
-  return (
-    process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ||
-    "https://rign.uk"
-  );
+export function getSiteUrl() {
+  const configuredUrl = process.env.NEXT_PUBLIC_SITE_URL
+    ?.trim()
+    .replace(/\/$/, "");
+
+  if (!configuredUrl || configuredUrl === "https://rign.uk") {
+    return "https://www.rign.uk";
+  }
+
+  return configuredUrl;
 }
 
 function toAbsoluteUrl(pathOrUrl: string) {
@@ -109,6 +114,7 @@ export const SITE_ROUTES = [
   "/services/chrome-delete/sheffield",
   "/services/paint-protection-film",
   "/services/detailing",
+  "/services/detailing/rotherham",
   "/services/paint-correction",
   "/pricing",
   "/dealerships",
