@@ -2,8 +2,9 @@
  * JSON-LD helpers for local SEO pages.
  */
 
-const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") || "https://rign.uk";
+import { getSiteUrl } from "@/lib/seo";
+
+const SITE_URL = getSiteUrl();
 
 export function localBusinessNode(extra?: Record<string, unknown>) {
   return {
