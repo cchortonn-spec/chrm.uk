@@ -106,6 +106,7 @@ export const SITE_ROUTES = [
   "/about",
   "/what-we-do",
   "/services/chrome-delete",
+  "/services/chrome-delete/sheffield",
   "/services/paint-protection-film",
   "/services/detailing",
   "/services/paint-correction",
