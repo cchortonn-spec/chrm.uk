@@ -1,31 +1,44 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
+import { useEffect, useSyncExternalStore } from "react";
 import Script from "next/script";
 import CookieConsent from "@/components/CookieConsent";
-import { applyConsentMode, readConsent } from "@/lib/consent";
+import {
+  CONSENT_UPDATED_EVENT,
+  applyConsentMode,
+  readConsent,
+} from "@/lib/consent";
 
 const gaId = process.env.NEXT_PUBLIC_GA_ID;
 const gtmId = process.env.NEXT_PUBLIC_GTM_ID;
 const clarityId = process.env.NEXT_PUBLIC_CLARITY_ID;
+
+function subscribeToConsent(onChange: () => void) {
+  window.addEventListener(CONSENT_UPDATED_EVENT, onChange);
+  return () => window.removeEventListener(CONSENT_UPDATED_EVENT, onChange);
+}
+
+function getAnalyticsConsent() {
+  const consent = readConsent();
+  return consent.decided && consent.analytics;
+}
 
 /**
  * Loads GA4/GTM after Consent Mode defaults (set in layout).
  * Clarity only injects when analytics consent is granted.
  */
 export default function Analytics() {
-  const [analyticsGranted, setAnalyticsGranted] = useState(false);
+  const analyticsGranted = useSyncExternalStore(
+    subscribeToConsent,
+    getAnalyticsConsent,
+    () => false
+  );
 
   useEffect(() => {
     const existing = readConsent();
     if (existing.decided) {
       applyConsentMode(existing.analytics);
-      setAnalyticsGranted(existing.analytics);
     }
-  }, []);
-
-  const onAnalyticsChange = useCallback((granted: boolean) => {
-    setAnalyticsGranted(granted);
   }, []);
 
   return (
@@ -79,7 +92,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </Script>
       ) : null}
 
-      <CookieConsent onAnalyticsChange={onAnalyticsChange} />
+      <CookieConsent />
     </>
   );
 }
