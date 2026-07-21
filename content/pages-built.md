@@ -1,6 +1,6 @@
 # RIGN pages built
 
-## Live baseline — checked 2026-07-20
+## Live baseline — checked 2026-07-21
 
 The following public routes returned HTTP 200 on `https://www.rign.uk`:
 
@@ -36,3 +36,4 @@ The following public routes returned HTTP 200 on `https://www.rign.uk`:
 |---|---|---|---|
 | 2026-07-20 | `/services/chrome-delete/sheffield` | A — service × town | Built and awaiting branch deployment |
 | 2026-07-20 | `/services/detailing/rotherham` | A — service × town | Built and awaiting branch deployment |
+| 2026-07-21 | `/guides/paint-correction-vs-full-respray` | B — brand/guide | Built and awaiting branch deployment |

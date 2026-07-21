@@ -1,6 +1,6 @@
 # Existing public pages
 
-Last checked: 2026-07-20
+Last checked: 2026-07-21
 
 This inventory compares public App Router pages, `lib/seo.ts` `SITE_ROUTES`,
 and the live sitemap. API, metadata-image, `robots.txt`, `sitemap.xml`, and
@@ -22,6 +22,7 @@ not-found routes are not content pages.
 | `/gallery` | Yes | Yes | Yes |
 | `/guides` | Yes | Yes | Yes |
 | `/guides/best-drives-and-car-spots-south-yorkshire` | Yes | Yes | Yes |
+| `/guides/paint-correction-vs-full-respray` | Yes | Yes | No — new this run |
 | `/guides/ppf-vs-chrome-delete` | Yes | Yes | Yes |
 | `/guides/south-yorkshire-car-meets-and-shows` | Yes | Yes | Yes |
 | `/guides/what-is-chrome-delete` | Yes | Yes | Yes |
@@ -48,6 +49,13 @@ not-found routes are not content pages.
   condition-led package choices, Rotherham winter-road evidence, mobile-site
   suitability guidance, and quote-photo checklist do not repeat the detailing
   pillar, Rotherham hub, or Sheffield combination page.
+- `/guides/paint-correction-vs-full-respray` does not conflict with the
+  `/services/paint-correction` pillar or the existing comparison guide. It adds
+  a defect-depth decision framework, correction limits, respray and mixed-plan
+  guidance, a photo-assessment checklist, and four original FAQs.
+- Rendered five-word shingle comparison put the new guide's highest similarity
+  at **5.4%** against the guides hub and **1.7%** against the closest article,
+  well below the existing town-page risk.
 - Existing town pages remain the highest similarity risk: live five-word
   shingle comparisons measured 21.5%–26.8% similarity between town-page
   pairs, largely because they use the same short shared structure.
