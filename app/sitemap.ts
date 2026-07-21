@@ -1,10 +1,8 @@
 import type { MetadataRoute } from "next";
-import { SITE_ROUTES } from "@/lib/seo";
+import { getSiteUrl, SITE_ROUTES } from "@/lib/seo";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ||
-    "https://rign.uk";
+  const siteUrl = getSiteUrl();
 
   const now = new Date();
 
