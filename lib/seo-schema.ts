@@ -83,6 +83,7 @@ export function articleSchema(opts: {
   description: string;
   path: string;
   datePublished: string;
+  dateModified?: string;
 }) {
   return {
     "@context": "https://schema.org",
@@ -91,7 +92,7 @@ export function articleSchema(opts: {
     description: opts.description,
     url: `${SITE_URL}${opts.path}`,
     datePublished: opts.datePublished,
-    dateModified: opts.datePublished,
+    dateModified: opts.dateModified || opts.datePublished,
     author: localBusinessNode(),
     publisher: localBusinessNode(),
     mainEntityOfPage: `${SITE_URL}${opts.path}`,

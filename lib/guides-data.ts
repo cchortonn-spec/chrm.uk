@@ -8,8 +8,15 @@ export type GuideDef = {
   title: string;
   metaDescription: string;
   datePublished: string;
+  dateModified?: string;
   excerpt: string;
   sections: { heading: string; body: string }[];
+  faqs?: { q: string; a: string }[];
+  schemaService?: {
+    name: string;
+    description: string;
+    areaName?: string;
+  };
   relatedLinks: { href: string; label: string }[];
 };
 
@@ -148,6 +155,79 @@ export const GUIDES: GuideDef[] = [
       { href: "/services/chrome-delete", label: "Chrome delete" },
       { href: "/services/paint-correction", label: "Paint correction" },
       { href: "/services/detailing", label: "Detailing" },
+    ],
+  },
+  {
+    slug: "paint-correction-vs-full-respray",
+    href: "/guides/paint-correction-vs-full-respray",
+    title: "Paint Correction vs Full Respray: Which Does Your Car Need?",
+    metaDescription:
+      "Paint correction vs full respray explained: learn which marks can be polished, which need new paint, and how to choose without over-treating your car.",
+    datePublished: "2026-07-21",
+    dateModified: "2026-07-21",
+    excerpt:
+      "Choose paint correction when the existing paint is sound but marked by swirls, haze, or shallow clear-coat scratches. Choose paint repair or a respray when colour is missing, lacquer is failing, rust is present, or damage reaches the layers below.",
+    sections: [
+      {
+        heading: "The short answer: correct sound paint, repaint failed paint",
+        body: "Paint correction and a respray solve different problems. Correction carefully refines the clear coat already on the car; it can restore gloss and reduce swirls, wash marring, haze, light oxidation, and some shallow scratches. A respray adds new paint after preparation and is the appropriate route when the existing paint system is no longer intact. If you can see primer or bare metal, find peeling lacquer, or have a deep chip where paint is missing, polishing cannot put that material back. The sensible choice begins with the depth and condition of the defect, not with which treatment sounds more comprehensive.",
+      },
+      {
+        heading: "What paint correction actually changes",
+        body: "Most modern gloss finishes have a clear protective layer above the colour coat. Fine defects interrupt that surface and scatter light, which is why a dark car can look grey or webbed in direct sun even though its colour is still present. Machine polishing uses a measured combination of pad, compound, pressure, and working time to refine the clear coat around those defects. The goal is a clearer, more even reflection while preserving as much paint as possible. It is not the same as filling a scratch with new colour, and it should not mean chasing every last mark regardless of how much clear coat that would remove.",
+      },
+      {
+        heading: "The limits: chips, deep scratches, rust, and peeling lacquer",
+        body: "A stone chip is a small area of missing paint. A scratch that exposes a different colour beneath, primer, or metal has also passed beyond what polishing can replace. Failed lacquer may look cloudy at first, then lift or peel around an edge; polishing an unstable surface can make matters worse rather than cure it. Rust, dents, cracked paint, and damage linked to a collision belong with a suitable body-repair professional. Correction may soften the appearance of a deeper mark, but a responsible assessment distinguishes improvement from complete removal. RIGN will not promise that a machine polisher can rebuild a layer that is no longer there.",
+      },
+      {
+        heading: "When a panel repair or respray is the better route",
+        body: "New paint becomes relevant when the colour or protective layers have failed, when previous repairs are visibly mismatched, or when damage is too broad for a contained correction. That does not always mean repainting the entire car. A bodyshop may recommend a localised repair, one-panel refinish, or a wider blend depending on the location, paint type, and surrounding condition. If several panels have widespread failure, a larger respray can provide a consistent result. RIGN specialises in paint correction rather than bodyshop refinishing, so if inspection shows missing or failed paint, the honest recommendation is repair first and correction only where it remains useful afterwards.",
+      },
+      {
+        heading: "Sometimes the right answer is a mixed plan",
+        body: "Cars rarely arrive with one perfectly uniform problem. One door may have a deep key mark that needs paint, while the bonnet and remaining panels are simply swirled from years of washing. In that case, repainting every sound panel would be unnecessary, but polishing the deep mark alone would not solve it. A bodyshop can repair the damaged area, then paint correction can refine the healthy surrounding finish once the new paint has fully cured according to the repairer's guidance. This staged approach keeps the treatment proportionate and helps the repaired panel sit more naturally beside the rest of the car.",
+      },
+      {
+        heading: "How to inspect a mark without making it worse",
+        body: "Start with a clean panel in bright, indirect light. Look from several angles and note whether the mark is a fine line in the gloss, a chip with a clear edge, a cloudy patch, or a lifted lacquer boundary. A mark that becomes much less visible when wet is often within the clear surface, but that is only an indicator, not a guarantee. A fingernail that catches firmly can suggest a deeper defect, yet it is not a substitute for inspecting the paint properly. Avoid aggressive sanding or repeated compound tests: every abrasive step removes material, and a careless experiment can turn a correctable defect into a paint repair.",
+      },
+      {
+        heading: "What to send for an honest first assessment",
+        body: "Send one photo of the whole vehicle, one showing the complete affected panel, and close-ups from two angles. Mention whether the finish is gloss, matte, satin, metallic, or pearlescent; matte and satin finishes should not be polished like conventional gloss paint because doing so can permanently change their appearance. Tell us about previous paintwork if you know of any, and explain the result you want: better everyday clarity, preparation before protection, or a near-show finish. Photos cannot reveal everything, but they help separate likely clear-coat defects from obvious missing paint before anyone recommends the wrong service.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Can paint correction remove every scratch?",
+        a: "No. It can remove or reduce defects that sit safely within the clear coat. Scratches through the colour layer, primer, or metal need paint repair rather than more polishing.",
+      },
+      {
+        q: "Does a deep scratch mean the whole car needs a respray?",
+        a: "Usually not. A suitable bodyshop may be able to repair or refinish the affected area or panel. The correct scope depends on the damage, paint type, and how well a local repair can be blended.",
+      },
+      {
+        q: "Should correction happen before or after bodyshop paintwork?",
+        a: "Repair missing or failed paint first. Allow fresh paint to cure for the period specified by the bodyshop, then assess whether correction on the surrounding original paint would improve consistency.",
+      },
+      {
+        q: "Can RIGN tell from photos whether I need correction or a respray?",
+        a: "Photos can identify obvious chips, peeling lacquer, and widespread swirls, so they are a useful first step. Final advice may still require an in-person inspection because lighting and camera processing can hide defect depth.",
+      },
+    ],
+    schemaService: {
+      name: "Paint Correction Assessment in South Yorkshire",
+      description:
+        "Condition-led assessment and machine polishing for sound automotive paint with swirls, haze, and clear-coat defects.",
+      areaName: "South Yorkshire",
+    },
+    relatedLinks: [
+      {
+        href: "/services/paint-correction",
+        label: "Paint correction service",
+      },
+      { href: "/pricing", label: "How RIGN prices work" },
+      { href: "/guides/ppf-vs-chrome-delete", label: "PPF vs chrome delete" },
     ],
   },
 ];

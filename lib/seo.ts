@@ -130,6 +130,7 @@ export const SITE_ROUTES = [
   "/guides/best-drives-and-car-spots-south-yorkshire",
   "/guides/what-is-chrome-delete",
   "/guides/ppf-vs-chrome-delete",
+  "/guides/paint-correction-vs-full-respray",
   "/contact",
   "/privacy",
   "/terms",
