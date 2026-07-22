@@ -21,5 +21,5 @@
 ## 2026-07-22
 
 - Built `/services/paint-correction/barnsley`, the next equal-rotation queue item; its diagnosis-first copy distinguishes safe clearcoat correction from paint repair and adds Barnsley road, preparation, and mobile-working context.
-- Self-score: **96/100** — uniqueness 23/25, local specificity 18/20, schema/meta/breadcrumbs 15/15, links 10/10, WhatsApp CTA 10/10, claims/statistics safety 10/10, responsive design 10/10.
+- Self-score: **96/100** — uniqueness 23/25, local specificity 18/20, schema/meta/breadcrumbs 15/15, links 10/10, WhatsApp CTA 10/10, claims/statistics safety 10/10, responsive design 10/10. Rendered QA counted 1,083 words, all four required schema types, 21 resolving links, 1.91% maximum five-word similarity, and clean desktop/mobile layouts.
 - Search Console and GA4 remain unavailable, so no performance leader was inferred. Live mobile Lighthouse improved to 88 with 3.8s LCP; the wider competitor check remains scheduled for approximately the fifth logged pass.

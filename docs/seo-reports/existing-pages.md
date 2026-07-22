@@ -54,6 +54,13 @@ not-found routes are not content pages.
   `/services/paint-correction` pillar or the existing comparison guide. It adds
   a defect-depth decision framework, correction limits, respray and mixed-plan
   guidance, a photo-assessment checklist, and four original FAQs.
+- `/services/paint-correction/barnsley` is a new, non-conflicting combination
+  route. It adds a diagnosis-first defect framework, controlled-correction
+  limits, Barnsley road-preparation context, mobile-site suitability, and
+  original quote-photo guidance instead of repeating the service pillar or
+  town hub.
+- The Barnsley page's rendered five-word Jaccard comparison peaked at **1.91%**
+  against `/areas-we-cover/barnsley`; target-shingle overlap was **2.14%**.
 - Rendered five-word shingle comparison put the new guide's highest similarity
   at **5.4%** against the guides hub and **1.7%** against the closest article,
   well below the existing town-page risk.
