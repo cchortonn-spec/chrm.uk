@@ -1,12 +1,12 @@
 # Existing public pages
 
-Last checked: 2026-07-21
+Last checked: 2026-07-22
 
 This inventory compares public App Router pages, `lib/seo.ts` `SITE_ROUTES`,
 and the live sitemap. API, metadata-image, `robots.txt`, `sitemap.xml`, and
 not-found routes are not content pages.
 
-| Route | App route | `SITE_ROUTES` | Live sitemap before this run |
+| Route | App route | `SITE_ROUTES` | Live sitemap at check |
 |---|:---:|:---:|:---:|
 | `/` | Yes | Yes | Yes |
 | `/about` | Yes | Yes | Yes |
@@ -22,17 +22,18 @@ not-found routes are not content pages.
 | `/gallery` | Yes | Yes | Yes |
 | `/guides` | Yes | Yes | Yes |
 | `/guides/best-drives-and-car-spots-south-yorkshire` | Yes | Yes | Yes |
-| `/guides/paint-correction-vs-full-respray` | Yes | Yes | No — new this run |
+| `/guides/paint-correction-vs-full-respray` | Yes | Yes | No — branch only |
 | `/guides/ppf-vs-chrome-delete` | Yes | Yes | Yes |
 | `/guides/south-yorkshire-car-meets-and-shows` | Yes | Yes | Yes |
 | `/guides/what-is-chrome-delete` | Yes | Yes | Yes |
 | `/pricing` | Yes | Yes | Yes |
 | `/privacy` | Yes | Yes | Yes |
 | `/services/chrome-delete` | Yes | Yes | Yes |
-| `/services/chrome-delete/sheffield` | Yes | Yes | No — new this run |
+| `/services/chrome-delete/sheffield` | Yes | Yes | No — branch only |
 | `/services/detailing` | Yes | Yes | Yes |
-| `/services/detailing/rotherham` | Yes | Yes | No — new this run |
+| `/services/detailing/rotherham` | Yes | Yes | No — branch only |
 | `/services/paint-correction` | Yes | Yes | Yes |
+| `/services/paint-correction/barnsley` | Yes | Yes | No — new this run |
 | `/services/paint-protection-film` | Yes | Yes | Yes |
 | `/terms` | Yes | Yes | Yes |
 | `/what-we-do` | Yes | Yes | Yes |

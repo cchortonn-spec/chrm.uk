@@ -116,6 +116,7 @@ export const SITE_ROUTES = [
   "/services/detailing",
   "/services/detailing/rotherham",
   "/services/paint-correction",
+  "/services/paint-correction/barnsley",
   "/pricing",
   "/dealerships",
   "/areas-we-cover",

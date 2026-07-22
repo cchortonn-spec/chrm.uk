@@ -17,3 +17,9 @@
 - Built `/guides/paint-correction-vs-full-respray` because it was the first unchecked queue item; the answer-first guide explains the limits of polishing, when new paint is needed, and why a mixed repair-and-correction plan can be more proportionate.
 - Self-score: **97/100** — uniqueness 24/25, topical specificity 18/20, schema/meta/breadcrumbs 15/15, links 10/10, WhatsApp CTA 10/10, claims/statistics safety 10/10, responsive design 10/10. Rendered QA counted 1,047 words, all required schemas, resolving links, and 5.4% maximum five-word similarity.
 - Search Console and GA4 remain unavailable, so no winner was inferred and the queue remains unchanged. Live mobile Lighthouse is still the main flag at 82 with 4.84s LCP; the light competitor check is not due on this third logged run.
+
+## 2026-07-22
+
+- Built `/services/paint-correction/barnsley`, the next equal-rotation queue item; its diagnosis-first copy distinguishes safe clearcoat correction from paint repair and adds Barnsley road, preparation, and mobile-working context.
+- Self-score: **96/100** — uniqueness 23/25, local specificity 18/20, schema/meta/breadcrumbs 15/15, links 10/10, WhatsApp CTA 10/10, claims/statistics safety 10/10, responsive design 10/10.
+- Search Console and GA4 remain unavailable, so no performance leader was inferred. Live mobile Lighthouse improved to 88 with 3.8s LCP; the wider competitor check remains scheduled for approximately the fifth logged pass.

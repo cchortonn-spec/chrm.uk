@@ -11,7 +11,7 @@ freshness maintenance.
 1. [x] **A — Chrome delete × Sheffield** — `/services/chrome-delete/sheffield` (built 2026-07-20)
 2. [x] **A — Detailing × Rotherham** — `/services/detailing/rotherham` (built 2026-07-20)
 3. [x] **B — Paint correction vs full respray** — `/guides/paint-correction-vs-full-respray` (built 2026-07-21)
-4. [ ] **A — Paint correction × Barnsley**
+4. [x] **A — Paint correction × Barnsley** — `/services/paint-correction/barnsley` (built 2026-07-22)
 5. [ ] **A — PPF × Chesterfield**
 6. [ ] **B — South Yorkshire prestige-car and dealership landscape** (general landscape only; no partnership claims)
 7. [ ] **A — Chrome delete × Doncaster**
