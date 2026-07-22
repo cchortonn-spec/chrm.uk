@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useSyncExternalStore } from "react";
 import Image from "next/image";
 import {
   homeSlideshowDesktop,
@@ -9,6 +9,17 @@ import {
 } from "@/lib/images";
 
 const INTERVAL_MS = 3000;
+const REDUCED_MOTION_QUERY = "(prefers-reduced-motion: reduce)";
+
+function subscribeToReducedMotion(onChange: () => void) {
+  const query = window.matchMedia(REDUCED_MOTION_QUERY);
+  query.addEventListener("change", onChange);
+  return () => query.removeEventListener("change", onChange);
+}
+
+function getReducedMotion() {
+  return window.matchMedia(REDUCED_MOTION_QUERY).matches;
+}
 
 function AutoSlides({
   images,
@@ -20,15 +31,11 @@ function AutoSlides({
   sizes: string;
 }) {
   const [index, setIndex] = useState(0);
-  const [reduceMotion, setReduceMotion] = useState(false);
-
-  useEffect(() => {
-    const mq = window.matchMedia("(prefers-reduced-motion: reduce)");
-    setReduceMotion(mq.matches);
-    const onChange = () => setReduceMotion(mq.matches);
-    mq.addEventListener("change", onChange);
-    return () => mq.removeEventListener("change", onChange);
-  }, []);
+  const reduceMotion = useSyncExternalStore(
+    subscribeToReducedMotion,
+    getReducedMotion,
+    () => false
+  );
 
   useEffect(() => {
     if (reduceMotion || images.length < 2) return;

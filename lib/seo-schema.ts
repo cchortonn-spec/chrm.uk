@@ -2,8 +2,9 @@
  * JSON-LD helpers for local SEO pages.
  */
 
-const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") || "https://rign.uk";
+import { getSiteUrl } from "@/lib/seo";
+
+const SITE_URL = getSiteUrl();
 
 export function localBusinessNode(extra?: Record<string, unknown>) {
   return {
@@ -82,6 +83,7 @@ export function articleSchema(opts: {
   description: string;
   path: string;
   datePublished: string;
+  dateModified?: string;
 }) {
   return {
     "@context": "https://schema.org",
@@ -90,7 +92,7 @@ export function articleSchema(opts: {
     description: opts.description,
     url: `${SITE_URL}${opts.path}`,
     datePublished: opts.datePublished,
-    dateModified: opts.datePublished,
+    dateModified: opts.dateModified || opts.datePublished,
     author: localBusinessNode(),
     publisher: localBusinessNode(),
     mainEntityOfPage: `${SITE_URL}${opts.path}`,
