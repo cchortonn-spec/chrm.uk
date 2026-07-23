@@ -113,6 +113,7 @@ export const SITE_ROUTES = [
   "/services/chrome-delete",
   "/services/chrome-delete/sheffield",
   "/services/paint-protection-film",
+  "/services/paint-protection-film/chesterfield",
   "/services/detailing",
   "/services/detailing/rotherham",
   "/services/paint-correction",
