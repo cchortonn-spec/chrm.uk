@@ -5,7 +5,10 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Analytics from "@/components/Analytics";
 import JsonLd from "@/components/JsonLd";
-import { generateMetadata as createMetadata } from "@/lib/seo";
+import {
+  generateMetadata as createMetadata,
+  getSiteUrl,
+} from "@/lib/seo";
 import "./globals.css";
 
 const outfit = Outfit({
@@ -51,7 +54,7 @@ const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "AutomotiveBusiness",
   name: "RIGN",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://rign.uk",
+  url: getSiteUrl(),
   email: "info@rign.uk",
   description:
     "Refined automotive — chrome delete, detailing, and paint correction. South Yorkshire based, UK-wide.",
