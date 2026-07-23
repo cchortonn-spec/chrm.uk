@@ -23,3 +23,9 @@
 - Built `/services/paint-correction/barnsley`, the next equal-rotation queue item; its diagnosis-first copy distinguishes safe clearcoat correction from paint repair and adds Barnsley road, preparation, and mobile-working context.
 - Self-score: **96/100** — uniqueness 23/25, local specificity 18/20, schema/meta/breadcrumbs 15/15, links 10/10, WhatsApp CTA 10/10, claims/statistics safety 10/10, responsive design 10/10. Rendered QA counted 1,083 words, all four required schema types, 21 resolving links, 1.91% maximum five-word similarity, and clean desktop/mobile layouts.
 - Search Console and GA4 remain unavailable, so no performance leader was inferred. Live mobile Lighthouse improved to 88 with 3.8s LCP; the wider competitor check remains scheduled for approximately the fifth logged pass.
+
+## 2026-07-23
+
+- Built `/services/paint-protection-film/chesterfield`, the next equal-rotation queue item; it answers when targeted PPF is worthwhile, separates protection from paint repair, and uses verified Chesterfield travel context to choose panels by real vehicle use.
+- Self-score: **97/100** — uniqueness 24/25, local specificity 18/20, schema/meta/breadcrumbs 15/15, links 10/10, WhatsApp CTA 10/10, claims/statistics safety 10/10, responsive design 10/10. Rendered QA counted 1,111 words, all four required schema types, 20 resolving links, 1.84% maximum five-word similarity, and clean desktop/mobile/tablet layouts.
+- Search Console and GA4 remain unavailable, so no performance winner was inferred and the rotation was not changed. The fifth-pass competitor check found established dedicated Chesterfield PPF and Doncaster dechrome pages but no material new schema-backed local content network; mobile Lighthouse was 84 with 4.6s LCP.

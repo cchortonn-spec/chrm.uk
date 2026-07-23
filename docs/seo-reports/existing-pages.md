@@ -1,6 +1,6 @@
 # Existing public pages
 
-Last checked: 2026-07-22
+Last checked: 2026-07-23
 
 This inventory compares public App Router pages, `lib/seo.ts` `SITE_ROUTES`,
 and the live sitemap. API, metadata-image, `robots.txt`, `sitemap.xml`, and
@@ -33,8 +33,9 @@ not-found routes are not content pages.
 | `/services/detailing` | Yes | Yes | Yes |
 | `/services/detailing/rotherham` | Yes | Yes | No — branch only |
 | `/services/paint-correction` | Yes | Yes | Yes |
-| `/services/paint-correction/barnsley` | Yes | Yes | No — new this run |
+| `/services/paint-correction/barnsley` | Yes | Yes | No — branch only |
 | `/services/paint-protection-film` | Yes | Yes | Yes |
+| `/services/paint-protection-film/chesterfield` | Yes | Yes | No — new this run |
 | `/terms` | Yes | Yes | Yes |
 | `/what-we-do` | Yes | Yes | Yes |
 
@@ -59,6 +60,14 @@ not-found routes are not content pages.
   limits, Barnsley road-preparation context, mobile-site suitability, and
   original quote-photo guidance instead of repeating the service pillar or
   town hub.
+- `/services/paint-protection-film/chesterfield` is a new, non-conflicting
+  combination route. It chooses targeted PPF areas from vehicle use, separates
+  protection from existing paint repair, adds verified Chesterfield travel and
+  mobile-environment context, and uses its own panel-priority structure rather
+  than repeating the PPF pillar or Chesterfield town hub.
+- The Chesterfield PPF page's rendered five-word Jaccard comparison peaked at
+  **1.84%** against `/areas-we-cover/chesterfield`; all 30 app,
+  `SITE_ROUTES`, and local sitemap entries match.
 - The Barnsley page's rendered five-word Jaccard comparison peaked at **1.91%**
   against `/areas-we-cover/barnsley`; target-shingle overlap was **2.14%**.
 - Rendered five-word shingle comparison put the new guide's highest similarity
