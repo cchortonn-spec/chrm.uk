@@ -62,21 +62,25 @@ export default function LocationPageView({ town }: LocationPageViewProps) {
             What we offer here
           </h2>
           <ul className="mt-10 divide-y divide-border border-y border-border">
-            {SERVICES.map((service) => (
-              <li key={service.slug}>
-                <Link
-                  href={service.href}
-                  className="group flex items-baseline justify-between gap-6 py-6 transition-opacity hover:opacity-90"
-                >
-                  <span className="font-heading text-lg font-medium text-foreground md:text-xl">
-                    {service.name}
-                  </span>
-                  <span className="shrink-0 text-[11px] tracking-[0.14em] text-foreground-secondary uppercase group-hover:text-foreground">
-                    Details →
-                  </span>
-                </Link>
-              </li>
-            ))}
+            {SERVICES.map((service) => {
+              const href = service.townPages?.[town.slug] || service.href;
+
+              return (
+                <li key={service.slug}>
+                  <Link
+                    href={href}
+                    className="group flex items-baseline justify-between gap-6 py-6 transition-opacity hover:opacity-90"
+                  >
+                    <span className="font-heading text-lg font-medium text-foreground md:text-xl">
+                      {service.name}
+                    </span>
+                    <span className="shrink-0 text-[11px] tracking-[0.14em] text-foreground-secondary uppercase group-hover:text-foreground">
+                      Details →
+                    </span>
+                  </Link>
+                </li>
+              );
+            })}
           </ul>
         </SectionWrapper>
 
