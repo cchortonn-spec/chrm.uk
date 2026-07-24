@@ -93,7 +93,7 @@ export default function GuideArticleView({ guide }: GuideArticleViewProps) {
               FAQ
             </p>
             <h2 className="mt-3 font-heading text-2xl font-medium tracking-tight text-foreground md:text-3xl">
-              Paint correction and respray questions
+              {guide.faqHeading || "Questions about this guide"}
             </h2>
             <div className="mt-10 divide-y divide-border border-y border-border">
               {guide.faqs.map((item) => (
@@ -107,6 +107,31 @@ export default function GuideArticleView({ guide }: GuideArticleViewProps) {
                 </div>
               ))}
             </div>
+          </SectionWrapper>
+        ) : null}
+
+        {guide.sources?.length ? (
+          <SectionWrapper className="pb-20">
+            <p className="accent-mark text-[11px] font-medium tracking-[0.2em] text-accent-label uppercase">
+              Sources
+            </p>
+            <h2 className="mt-3 font-heading text-xl font-medium text-foreground">
+              Research checked for this guide
+            </h2>
+            <ul className="mt-6 max-w-3xl divide-y divide-border border-y border-border">
+              {guide.sources.map((source) => (
+                <li key={source.href} className="py-4">
+                  <a
+                    href={source.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-foreground-secondary underline decoration-white/25 underline-offset-4 transition-colors hover:text-foreground"
+                  >
+                    {source.label} ↗
+                  </a>
+                </li>
+              ))}
+            </ul>
           </SectionWrapper>
         ) : null}
 

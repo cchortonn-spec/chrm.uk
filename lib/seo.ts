@@ -133,6 +133,7 @@ export const SITE_ROUTES = [
   "/guides/what-is-chrome-delete",
   "/guides/ppf-vs-chrome-delete",
   "/guides/paint-correction-vs-full-respray",
+  "/guides/buying-a-prestige-car-south-yorkshire",
   "/contact",
   "/privacy",
   "/terms",
