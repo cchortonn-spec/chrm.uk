@@ -1,6 +1,6 @@
 # RIGN pages built
 
-## Live baseline — checked 2026-07-23
+## Live baseline — checked 2026-07-24
 
 The following public routes returned HTTP 200 on `https://www.rign.uk`:
 
@@ -39,3 +39,4 @@ The following public routes returned HTTP 200 on `https://www.rign.uk`:
 | 2026-07-21 | `/guides/paint-correction-vs-full-respray` | B — brand/guide | Built and awaiting branch deployment |
 | 2026-07-22 | `/services/paint-correction/barnsley` | A — service × town | Built and awaiting branch deployment |
 | 2026-07-23 | `/services/paint-protection-film/chesterfield` | A — service × town | Built and awaiting branch deployment |
+| 2026-07-24 | `/guides/buying-a-prestige-car-south-yorkshire` | B — brand/guide | Built and awaiting branch deployment |

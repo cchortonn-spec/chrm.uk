@@ -29,3 +29,9 @@
 - Built `/services/paint-protection-film/chesterfield`, the next equal-rotation queue item; it answers when targeted PPF is worthwhile, separates protection from paint repair, and uses verified Chesterfield travel context to choose panels by real vehicle use.
 - Self-score: **97/100** — uniqueness 24/25, local specificity 18/20, schema/meta/breadcrumbs 15/15, links 10/10, WhatsApp CTA 10/10, claims/statistics safety 10/10, responsive design 10/10. Rendered QA counted 1,111 words, all four required schema types, 20 resolving links, 1.84% maximum five-word similarity, and clean desktop/mobile/tablet layouts.
 - Search Console and GA4 remain unavailable, so no performance winner was inferred and the rotation was not changed. The fifth-pass competitor check found established dedicated Chesterfield PPF and Doncaster dechrome pages but no material new schema-backed local content network; mobile Lighthouse was 84 with 4.6s LCP.
+
+## 2026-07-24
+
+- Built `/guides/buying-a-prestige-car-south-yorkshire`, the first unchecked queue item; it maps the regional prestige-car buying landscape without naming a partnership, then gives an evidence-backed inspection and after-purchase finish sequence across all four RIGN services.
+- Self-score: **97/100** — uniqueness 24/25, local specificity 18/20, schema/meta/breadcrumbs 15/15, links 10/10, WhatsApp CTA 10/10, claims/statistics safety 10/10, responsive design 10/10. Rendered QA counted 1,254 main-content words, five required schema types, resolving internal and source links, 4.68% maximum five-word similarity, and clean desktop/mobile/tablet layouts.
+- Search Console and GA4 remain unavailable, so no performance winner was inferred and the equal rotation was not changed. The live site remains at 25 routes because the accumulated branch is still undeployed; the light competitor check was completed on the previous run and was not due today.

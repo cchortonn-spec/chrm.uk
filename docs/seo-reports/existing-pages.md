@@ -1,6 +1,6 @@
 # Existing public pages
 
-Last checked: 2026-07-23
+Last checked: 2026-07-24
 
 This inventory compares public App Router pages, `lib/seo.ts` `SITE_ROUTES`,
 and the live sitemap. API, metadata-image, `robots.txt`, `sitemap.xml`, and
@@ -22,6 +22,7 @@ not-found routes are not content pages.
 | `/gallery` | Yes | Yes | Yes |
 | `/guides` | Yes | Yes | Yes |
 | `/guides/best-drives-and-car-spots-south-yorkshire` | Yes | Yes | Yes |
+| `/guides/buying-a-prestige-car-south-yorkshire` | Yes | Yes | No — branch only |
 | `/guides/paint-correction-vs-full-respray` | Yes | Yes | No — branch only |
 | `/guides/ppf-vs-chrome-delete` | Yes | Yes | Yes |
 | `/guides/south-yorkshire-car-meets-and-shows` | Yes | Yes | Yes |
@@ -65,6 +66,14 @@ not-found routes are not content pages.
   protection from existing paint repair, adds verified Chesterfield travel and
   mobile-environment context, and uses its own panel-priority structure rather
   than repeating the PPF pillar or Chesterfield town hub.
+- `/guides/buying-a-prestige-car-south-yorkshire` is distinct from the
+  trade-facing `/dealerships` page and the brief dealership paragraph in the
+  car-meets guide. It gives buyers a researched regional-retail overview,
+  daylight inspection method, surface-identification checks, service decision
+  boundaries, correct work order, and an explicit independence statement.
+- The new guide's rendered five-word Jaccard comparison peaked at **4.68%**
+  against the guides hub and **1.64%** against the closest existing article.
+  All 31 app, `SITE_ROUTES`, and local sitemap entries match.
 - The Chesterfield PPF page's rendered five-word Jaccard comparison peaked at
   **1.84%** against `/areas-we-cover/chesterfield`; all 30 app,
   `SITE_ROUTES`, and local sitemap entries match.
