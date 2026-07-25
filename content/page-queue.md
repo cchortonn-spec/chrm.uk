@@ -14,7 +14,7 @@ freshness maintenance.
 4. [x] **A — Paint correction × Barnsley** — `/services/paint-correction/barnsley` (built 2026-07-22)
 5. [x] **A — PPF × Chesterfield** — `/services/paint-protection-film/chesterfield` (built 2026-07-23)
 6. [x] **B — South Yorkshire prestige-car and dealership landscape** — `/guides/buying-a-prestige-car-south-yorkshire` (built 2026-07-24; independent guide, no partnership claims)
-7. [ ] **A — Chrome delete × Doncaster**
+7. [x] **A — Chrome delete × Doncaster** — `/services/chrome-delete/doncaster` (built 2026-07-25)
 8. [ ] **A — Detailing × Sheffield**
 9. [ ] **C — Leeds town page**
 10. [ ] **B — Winter paint care on South Yorkshire roads**

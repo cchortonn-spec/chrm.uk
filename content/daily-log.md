@@ -35,3 +35,9 @@
 - Built `/guides/buying-a-prestige-car-south-yorkshire`, the first unchecked queue item; it maps the regional prestige-car buying landscape without naming a partnership, then gives an evidence-backed inspection and after-purchase finish sequence across all four RIGN services.
 - Self-score: **97/100** — uniqueness 24/25, local specificity 18/20, schema/meta/breadcrumbs 15/15, links 10/10, WhatsApp CTA 10/10, claims/statistics safety 10/10, responsive design 10/10. Rendered QA counted 1,254 main-content words, five required schema types, resolving internal and source links, 4.68% maximum five-word similarity, and clean desktop/mobile/tablet layouts.
 - Search Console and GA4 remain unavailable, so no performance winner was inferred and the equal rotation was not changed. The live site remains at 25 routes because the accumulated branch is still undeployed; the light competitor check was completed on the previous run and was not due today.
+
+## 2026-07-25
+
+- Built `/services/chrome-delete/doncaster`, the first unchecked equal-rotation item; it scopes trim by visual group, separates styling film from protection, and adds Doncaster-specific mobile-working and road-use context without repeating the Sheffield page.
+- Self-score: **97/100** — uniqueness 24/25, local specificity 18/20, schema/meta/breadcrumbs 15/15, links 10/10, WhatsApp CTA 10/10, claims/statistics safety 10/10, responsive design 10/10. Final QA counted 1,044 main-content words, four required schema types, resolving links, 1.92% maximum five-word similarity, and clean desktop/mobile/tablet layouts.
+- Search Console and GA4 remain unavailable, so no performance winner was inferred and the equal rotation was not changed. The live site still has 25 routes while the accumulated branch now has 32; the next light competitor check is due around pass ten, not this seventh pass.
