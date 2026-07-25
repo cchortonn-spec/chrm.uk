@@ -112,6 +112,7 @@ export const SITE_ROUTES = [
   "/what-we-do",
   "/services/chrome-delete",
   "/services/chrome-delete/sheffield",
+  "/services/chrome-delete/doncaster",
   "/services/paint-protection-film",
   "/services/paint-protection-film/chesterfield",
   "/services/detailing",

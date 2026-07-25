@@ -35,6 +35,7 @@ export const SERVICES: ServiceDef[] = [
     href: "/services/chrome-delete",
     townPages: {
       sheffield: "/services/chrome-delete/sheffield",
+      doncaster: "/services/chrome-delete/doncaster",
     },
     h1: "Chrome Delete in South Yorkshire",
     metaDescription:
