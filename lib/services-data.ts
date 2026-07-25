@@ -11,6 +11,8 @@ export type ServiceDef = {
   name: string;
   shortName: string;
   href: string;
+  /** Dedicated local landing pages, keyed by town slug. */
+  townPages?: Record<string, string>;
   /** H1 / meta title fragment */
   h1: string;
   metaDescription: string;
@@ -31,6 +33,9 @@ export const SERVICES: ServiceDef[] = [
     name: "Chrome Delete",
     shortName: "Chrome delete",
     href: "/services/chrome-delete",
+    townPages: {
+      sheffield: "/services/chrome-delete/sheffield",
+    },
     h1: "Chrome Delete in South Yorkshire",
     metaDescription:
       "Professional chrome delete in South Yorkshire — Sheffield, Rotherham, Barnsley, Chesterfield & surrounding. 3M film, OEM+ finish. Get a quote.",
@@ -167,6 +172,9 @@ export const SERVICES: ServiceDef[] = [
     name: "Detailing",
     shortName: "Detailing",
     href: "/services/detailing",
+    townPages: {
+      rotherham: "/services/detailing/rotherham",
+    },
     h1: "Car Detailing in South Yorkshire",
     metaDescription:
       "Mobile car detailing in South Yorkshire — Sheffield, Rotherham, Barnsley & surrounding. Exterior and interior, showroom-ready. Get Your Quote on WhatsApp.",
