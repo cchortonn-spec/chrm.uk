@@ -168,16 +168,8 @@ export default function DoncasterChromeDeletePage() {
               </h2>
               <p className="mt-5 text-sm leading-relaxed text-foreground-secondary md:text-base">
                 Doncaster journeys can combine city traffic with the A630,
-                A1(M), M18, and roads through surrounding communities. The City
-                of Doncaster Council&apos;s{" "}
-                <a
-                  href="https://www.doncaster.gov.uk/services/environmental/air-pollution-in-doncaster"
-                  className="text-foreground underline decoration-white/30 underline-offset-4 transition-colors hover:decoration-white"
-                >
-                  published air-monitoring information
-                </a>{" "}
-                names traffic locations around the town centre, A630/A1(M)
-                interchange, Carr House Road, and Bawtry Road. That evidence
+                A1(M), M18, and roads through surrounding communities. That mix
+                does not dictate whether satin or gloss looks better, but it
                 supports a simple aftercare point: trim on a regularly used car
                 will collect traffic film and needs gentle, routine washing.
               </p>
