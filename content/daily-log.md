@@ -41,3 +41,9 @@
 - Built `/services/chrome-delete/doncaster`, the first unchecked equal-rotation item; it scopes trim by visual group, separates styling film from protection, and adds Doncaster-specific mobile-working and road-use context without repeating the Sheffield page.
 - Self-score: **97/100** — uniqueness 24/25, local specificity 18/20, schema/meta/breadcrumbs 15/15, links 10/10, WhatsApp CTA 10/10, claims/statistics safety 10/10, responsive design 10/10. Final QA counted 1,044 main-content words, four required schema types, resolving links, 1.92% maximum five-word similarity, and clean desktop/mobile/tablet layouts.
 - Search Console and GA4 remain unavailable, so no performance winner was inferred and the equal rotation was not changed. The live site still has 25 routes while the accumulated branch now has 32; the next light competitor check is due around pass ten, not this seventh pass.
+
+## 2026-07-26
+
+- Built `/services/detailing/sheffield`, the first unchecked equal-rotation item; it uses a four-zone condition check, verified Sheffield winter-road context, clear detailing-versus-correction boundaries, and mobile-location guidance instead of repeating the Rotherham page's package-led structure.
+- Self-score: **97/100** — uniqueness 24/25, local specificity 18/20, schema/meta/breadcrumbs 15/15, links 10/10, WhatsApp CTA 10/10, claims/statistics safety 10/10, responsive design 10/10. Final QA counted 1,154 main-content words, four required schema types, resolving links, 2.08% maximum five-word similarity, and clean desktop/mobile/tablet layouts.
+- Search Console and GA4 remain unavailable, so no performance winner was inferred and the equal rotation was not changed. Live mobile Lighthouse scored 88 with a 3.99s LCP; desktop scored 99 with a 1.01s LCP. The formal competitor check remains due around pass ten.

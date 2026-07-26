@@ -1,6 +1,6 @@
 # Existing public pages
 
-Last checked: 2026-07-25
+Last checked: 2026-07-26
 
 This inventory compares public App Router pages, `lib/seo.ts` `SITE_ROUTES`,
 and the live sitemap. API, metadata-image, `robots.txt`, `sitemap.xml`, and
@@ -34,10 +34,11 @@ not-found routes are not content pages.
 | `/services/chrome-delete/sheffield` | Yes | Yes | No — branch only |
 | `/services/detailing` | Yes | Yes | Yes |
 | `/services/detailing/rotherham` | Yes | Yes | No — branch only |
+| `/services/detailing/sheffield` | Yes | Yes | No — new this run |
 | `/services/paint-correction` | Yes | Yes | Yes |
 | `/services/paint-correction/barnsley` | Yes | Yes | No — branch only |
 | `/services/paint-protection-film` | Yes | Yes | Yes |
-| `/services/paint-protection-film/chesterfield` | Yes | Yes | No — new this run |
+| `/services/paint-protection-film/chesterfield` | Yes | Yes | No — branch only |
 | `/terms` | Yes | Yes | Yes |
 | `/what-we-do` | Yes | Yes | Yes |
 
@@ -76,6 +77,14 @@ not-found routes are not content pages.
   route. It adds a visual-group scoping method, explicit styling-versus-
   protection limits, Doncaster road-use aftercare, trim-condition checks, and
   mobile-location guidance in a section order unlike the Sheffield page.
+- `/services/detailing/sheffield` is a new, non-conflicting combination route.
+  It adds a four-zone condition check, Sheffield's elevation-aware winter
+  context, a cleaning/decontamination/correction boundary, use-led timing, and
+  mobile-location suitability in a section order unlike the Rotherham page.
+- The Sheffield detailing page's rendered five-word Jaccard comparison peaked
+  at **2.08%** against `/services/chrome-delete/sheffield` and **1.99%**
+  against `/services/detailing/rotherham`. All 33 app routes, `SITE_ROUTES`
+  entries, and local sitemap entries match.
 - The Doncaster page's rendered five-word Jaccard comparison peaked at
   **1.92%** against `/services/chrome-delete/sheffield`. All 32 app routes,
   `SITE_ROUTES` entries, and local sitemap entries match.
