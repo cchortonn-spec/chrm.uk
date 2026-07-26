@@ -117,6 +117,7 @@ export const SITE_ROUTES = [
   "/services/paint-protection-film/chesterfield",
   "/services/detailing",
   "/services/detailing/rotherham",
+  "/services/detailing/sheffield",
   "/services/paint-correction",
   "/services/paint-correction/barnsley",
   "/pricing",
