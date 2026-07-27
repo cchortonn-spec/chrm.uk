@@ -128,6 +128,7 @@ export const SITE_ROUTES = [
   "/areas-we-cover/barnsley",
   "/areas-we-cover/chesterfield",
   "/areas-we-cover/doncaster",
+  "/areas-we-cover/leeds",
   "/faq",
   "/guides",
   "/guides/south-yorkshire-car-meets-and-shows",

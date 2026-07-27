@@ -28,8 +28,9 @@ export default function AreasWeCoverPage() {
           Dedicated local pages
         </h2>
         <p className="mt-4 max-w-xl text-sm leading-relaxed text-foreground-secondary">
-          Full coverage pages for our busiest South Yorkshire routes — open one
-          for services, districts, and how we work in that town.
+          Full coverage pages for our South Yorkshire routes and selected
+          appointment areas — open one for services, districts, and how we work
+          there.
         </p>
         <ul className="mt-10 divide-y divide-border border-y border-border">
           {PRIORITY_TOWNS.map((town) => (
@@ -64,9 +65,9 @@ export default function AreasWeCoverPage() {
         </h2>
         <p className="mt-4 max-w-2xl text-sm leading-relaxed text-foreground-secondary md:text-base">
           We regularly take work through West Yorkshire and the gaps between our
-          hub towns — Leeds, Huddersfield, Wakefield, Pontefract, Featherstone,
-          and the villages sitting on those routes. If you&apos;re between two
-          places on this page, ask. Mobile by design.
+          hub towns — including Huddersfield, Wakefield, Pontefract,
+          Featherstone, and the villages sitting on those routes. If you&apos;re
+          between two places on this page, ask. Mobile by design.
         </p>
         <div className="mt-12 space-y-10">
           {HUB_ONLY_TOWNS.map((town) => (
