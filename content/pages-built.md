@@ -1,6 +1,6 @@
 # RIGN pages built
 
-## Live baseline — checked 2026-07-26
+## Live baseline — checked 2026-07-27
 
 The following public routes returned HTTP 200 on `https://www.rign.uk`:
 
@@ -42,3 +42,4 @@ The following public routes returned HTTP 200 on `https://www.rign.uk`:
 | 2026-07-24 | `/guides/buying-a-prestige-car-south-yorkshire` | B — brand/guide | Built and awaiting branch deployment |
 | 2026-07-25 | `/services/chrome-delete/doncaster` | A — service × town | Built and awaiting branch deployment |
 | 2026-07-26 | `/services/detailing/sheffield` | A — service × town | Built and awaiting branch deployment |
+| 2026-07-27 | `/areas-we-cover/leeds` | C — remaining town | Built and awaiting branch deployment |

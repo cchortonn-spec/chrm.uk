@@ -47,3 +47,9 @@
 - Built `/services/detailing/sheffield`, the first unchecked equal-rotation item; it uses a four-zone condition check, verified Sheffield winter-road context, clear detailing-versus-correction boundaries, and mobile-location guidance instead of repeating the Rotherham page's package-led structure.
 - Self-score: **97/100** — uniqueness 24/25, local specificity 18/20, schema/meta/breadcrumbs 15/15, links 10/10, WhatsApp CTA 10/10, claims/statistics safety 10/10, responsive design 10/10. Final QA counted 1,154 main-content words, four required schema types, resolving links, 2.08% maximum five-word similarity, and clean desktop/mobile/tablet layouts.
 - Search Console and GA4 remain unavailable, so no performance winner was inferred and the equal rotation was not changed. Live mobile Lighthouse scored 88 with a 3.99s LCP; desktop scored 99 with a 1.01s LCP. The formal competitor check remains due around pass ten.
+
+## 2026-07-27
+
+- Built `/areas-we-cover/leeds`, the first unchecked queue item and scheduled Category C town page; it explains appointment coverage from South Yorkshire, separates all four services by outcome, uses checked M621 context, and makes workspace suitability part of the booking decision.
+- Self-score: **95/100** — uniqueness 24/25, local specificity 18/20, schema/meta/breadcrumbs 13/15, links 10/10, WhatsApp CTA 10/10, claims/statistics safety 10/10, responsive design 10/10. Final QA counted 1,041 visible words, four required schema types, resolving links, 1.87% maximum five-word similarity, and clean desktop/mobile/tablet layouts; the existing missing default social image accounts for the metadata deduction.
+- Search Console and GA4 remain unavailable, so no performance winner was inferred and the queue was not reordered. Live mobile Lighthouse scored 85 with a 3.69s LCP; desktop scored 99 with a 0.98s LCP. The formal competitor check remains due around pass ten.

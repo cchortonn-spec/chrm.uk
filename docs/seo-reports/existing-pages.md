@@ -1,6 +1,6 @@
 # Existing public pages
 
-Last checked: 2026-07-26
+Last checked: 2026-07-27
 
 This inventory compares public App Router pages, `lib/seo.ts` `SITE_ROUTES`,
 and the live sitemap. API, metadata-image, `robots.txt`, `sitemap.xml`, and
@@ -14,6 +14,7 @@ not-found routes are not content pages.
 | `/areas-we-cover/barnsley` | Yes | Yes | Yes |
 | `/areas-we-cover/chesterfield` | Yes | Yes | Yes |
 | `/areas-we-cover/doncaster` | Yes | Yes | Yes |
+| `/areas-we-cover/leeds` | Yes | Yes | No — new this run |
 | `/areas-we-cover/rotherham` | Yes | Yes | Yes |
 | `/areas-we-cover/sheffield` | Yes | Yes | Yes |
 | `/contact` | Yes | Yes | Yes |
@@ -81,6 +82,13 @@ not-found routes are not content pages.
   It adds a four-zone condition check, Sheffield's elevation-aware winter
   context, a cleaning/decontamination/correction boundary, use-led timing, and
   mobile-location suitability in a section order unlike the Rotherham page.
+- `/areas-we-cover/leeds` is a new, non-conflicting town route. It replaces the
+  brief hub-only mention with an appointment-suitability decision, a four-
+  service problem framework, checked M621 context, workspace guidance, and an
+  original quote checklist without claiming that RIGN is based in Leeds.
+- The Leeds page's rendered five-word main-content Jaccard comparison peaked at
+  **1.87%** against `/what-we-do`; all 34 app routes, `SITE_ROUTES` entries, and
+  local sitemap entries match.
 - The Sheffield detailing page's rendered five-word Jaccard comparison peaked
   at **2.08%** against `/services/chrome-delete/sheffield` and **1.99%**
   against `/services/detailing/rotherham`. All 33 app routes, `SITE_ROUTES`
