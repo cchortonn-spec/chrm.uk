@@ -33,7 +33,7 @@ const faqs = [
 ];
 
 export const metadata: Metadata = createMetadata({
-  title: "Chrome Delete, Detailing, PPF & Paint Correction Leeds",
+  title: "Chrome Delete, Detailing & PPF Leeds",
   description:
     "Mobile chrome delete, detailing, targeted PPF and paint correction in Leeds by appointment. Honest scope, specialist finish and photo quotes.",
   canonicalPath: path,
