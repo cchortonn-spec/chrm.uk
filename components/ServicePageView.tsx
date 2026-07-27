@@ -9,11 +9,23 @@ import { breadcrumbSchema, faqPageSchema, serviceSchema } from "@/lib/seo-schema
 
 /** Town links shown on every service page (priority towns). */
 const TOWN_LINKS = [
-  { href: "/areas-we-cover/sheffield", label: "Sheffield" },
-  { href: "/areas-we-cover/rotherham", label: "Rotherham" },
-  { href: "/areas-we-cover/barnsley", label: "Barnsley" },
-  { href: "/areas-we-cover/chesterfield", label: "Chesterfield" },
-  { href: "/areas-we-cover/doncaster", label: "Doncaster" },
+  { slug: "sheffield", href: "/areas-we-cover/sheffield", label: "Sheffield" },
+  {
+    slug: "rotherham",
+    href: "/areas-we-cover/rotherham",
+    label: "Rotherham",
+  },
+  { slug: "barnsley", href: "/areas-we-cover/barnsley", label: "Barnsley" },
+  {
+    slug: "chesterfield",
+    href: "/areas-we-cover/chesterfield",
+    label: "Chesterfield",
+  },
+  {
+    slug: "doncaster",
+    href: "/areas-we-cover/doncaster",
+    label: "Doncaster",
+  },
 ];
 
 type ServicePageViewProps = {
@@ -109,16 +121,20 @@ export default function ServicePageView({ service }: ServicePageViewProps) {
             Mobile across our South Yorkshire hub and surrounding towns.
           </p>
           <ul className="mt-8 flex flex-wrap gap-3">
-            {TOWN_LINKS.map((town) => (
-              <li key={town.href}>
-                <Link
-                  href={town.href}
-                  className="inline-flex border border-white/15 px-4 py-2 text-[11px] font-medium tracking-[0.12em] text-foreground uppercase transition-opacity hover:opacity-80"
-                >
-                  {town.label}
-                </Link>
-              </li>
-            ))}
+            {TOWN_LINKS.map((town) => {
+              const href = service.townPages?.[town.slug] || town.href;
+
+              return (
+                <li key={town.slug}>
+                  <Link
+                    href={href}
+                    className="inline-flex border border-white/15 px-4 py-2 text-[11px] font-medium tracking-[0.12em] text-foreground uppercase transition-opacity hover:opacity-80"
+                  >
+                    {town.label}
+                  </Link>
+                </li>
+              );
+            })}
           </ul>
           <p className="mt-6 text-sm text-foreground-secondary">
             <Link
