@@ -137,6 +137,7 @@ export const SITE_ROUTES = [
   "/guides/ppf-vs-chrome-delete",
   "/guides/paint-correction-vs-full-respray",
   "/guides/buying-a-prestige-car-south-yorkshire",
+  "/guides/winter-paint-care-south-yorkshire",
   "/contact",
   "/privacy",
   "/terms",

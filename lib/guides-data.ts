@@ -322,6 +322,102 @@ export const GUIDES: GuideDef[] = [
       { href: "/areas-we-cover", label: "Areas RIGN covers" },
     ],
   },
+  {
+    slug: "winter-paint-care-south-yorkshire",
+    href: "/guides/winter-paint-care-south-yorkshire",
+    title: "Winter Paint Care on South Yorkshire Roads",
+    metaDescription:
+      "A practical South Yorkshire winter paint-care guide: remove road salt safely, inspect chips, protect sound paint and choose the right service.",
+    datePublished: "2026-07-31",
+    dateModified: "2026-07-31",
+    excerpt:
+      "After driving on gritted roads, loosen and rinse away salt-laden grime before touching the paint, clean the lower areas as carefully as the visible panels, and inspect chips rather than polishing over them. Protection helps maintenance, but it cannot repair missing paint.",
+    sections: [
+      {
+        heading: "The short answer: remove winter grime without grinding it in",
+        body: "Winter paint care is less about keeping a car permanently spotless and more about removing contamination safely. Begin with a thorough rinse or suitable pre-wash so loose grit and heavy road film leave the surface before a wash mitt touches it. Clean from the less contaminated upper panels toward the dirtier lower areas with clean tools, rinse thoroughly, and dry with a soft, clean towel when conditions allow. Pay separate attention to wheels, arches, sills, lower doors, the rear of the car, and accessible underside areas. If you find a chip, peeling lacquer, or exposed metal after cleaning, protection products and machine polishing are not repairs; the damaged area needs an appropriate paint or wheel-refurbishment assessment.",
+      },
+      {
+        heading: "Why one South Yorkshire journey can create several cleaning jobs",
+        body: "Local authorities treat priority roads across Sheffield, Rotherham, and Barnsley during cold weather, while side roads and rural routes may be treated differently. A journey can therefore move from a salted main route to wet lanes, muddy verges, standing water, and stop-start town traffic. The visible bonnet is only one part of that exposure. Spray from your own tyres and surrounding traffic reaches wheel faces, arch liners, sill edges, lower doors, bumpers, and the rear panel; dirt can also settle around badges, trim edges, number plates, and door shuts. Do not assume every white mark is salt or every dark film needs a strong chemical. Start gently, identify what remains after rinsing, and escalate the cleaning method only when the surface and contamination justify it.",
+      },
+      {
+        heading: "Use a wash order that protects the finish",
+        body: "Choose a time when water will not freeze across the driveway, seals, locks, or the ground around you. Rinse heavy deposits first and allow the pre-wash product its instructed dwell time without letting it dry. Use separate tools for wheels and bodywork so gritty wheel contamination is not transferred to the paint. During the contact wash, keep the mitt lubricated, rinse it frequently, and work in controlled passes rather than scrubbing one stubborn mark. Stronger is not automatically safer: household detergent, an aggressive brush, or an unsuitable wheel chemical can create a second problem while trying to solve the first. Finish with a complete rinse, then dry the paint and check crevices where trapped water could freeze later.",
+      },
+      {
+        heading: "Set the timing by exposure, not an arbitrary winter calendar",
+        body: "There is no honest wash interval that suits every South Yorkshire car. A daily motorway commuter after repeated gritting, a vehicle used on rural lanes, and a garaged weekend car have different exposure. Look at recent road treatment, mileage, weather, where the car is stored, and how quickly contamination is building. If the lower body and rear are carrying a visible film after treated-road use, deal with that evidence rather than waiting for a fixed date. Equally, do not force a wash during unsafe freezing conditions simply to follow a routine. A careful rinse and wash at the next suitable opportunity is more useful than rushing on icy ground or allowing products to freeze on the vehicle.",
+      },
+      {
+        heading: "Do not confuse clean paint, corrected paint, and repaired paint",
+        body: "A wash removes contamination; paint correction refines suitable defects within sound gloss clear coat; paint repair replaces material that is missing or failing. Winter grime can hide swirls, chips, scratches, wheel damage, and lacquer edges, so assessment becomes more reliable only after the car is clean. Light marring may be a correction question, but a stone chip showing primer or metal cannot be polished back into existence. Cloudy, lifting, or peeling lacquer also needs a repair route rather than more abrasion. Photograph any concern in dry, even light and from more than one angle. If you are unsure, preserving the remaining finish while seeking advice is safer than testing an abrasive product on the mark.",
+      },
+      {
+        heading: "Protection makes maintenance easier; it does not make a car invulnerable",
+        body: "A suitable wax, sealant, coating, or paint protection film can add a sacrificial barrier, but each still needs correct preparation and care. Applied protection does not cancel the need to remove road film, and it cannot stop corrosion where paint is already missing. Targeted PPF is most relevant where repeated road use exposes sound painted areas to physical impacts; it should not be laid over unresolved chips, unstable paint, or contamination. Chrome-delete film needs gentle washing around its edges and should not be attacked with an abrasive polish. Before adding anything, identify whether the surface is conventional gloss paint, matte or satin paint, vinyl, PPF, or a previously coated finish, because one maintenance method is not appropriate for all of them.",
+      },
+      {
+        heading: "Give hidden and safety-critical areas the right kind of attention",
+        body: "Autoglym's current road-salt guidance highlights the underside, wheel arches, and floor-to-sill joints because contamination can collect where a normal top wash barely reaches. Access matters: do not crawl beneath an unsupported vehicle or direct high pressure blindly at sensitive components. Use a safe facility or suitable professional service when the underside cannot be reached responsibly. On the exterior, clean around wheel nuts, arch lips, lower trim, fuel-filler recesses, and the tailgate or boot edge without forcing water into electrical parts. This is not a promise that washing prevents every corrosion issue. It is a practical way to remove deposits, expose damage for inspection, and avoid concentrating only on the panels that photograph well.",
+      },
+      {
+        heading: "Choose the next service from what the clean car reveals",
+        body: "Book detailing when the immediate need is safe decontamination, a more complete exterior and interior reset, or preparation for inspection. Consider paint correction only when clean, sound gloss paint has swirls, haze, or suitable shallow defects. Ask about targeted PPF when vulnerable painted panels are in good condition and repeated use makes impact protection worthwhile. Chrome delete is a styling decision for bright trim, not winter paint protection. For a useful first assessment, send RIGN whole-car photos, close-ups of the lower areas and any damage, the vehicle's usual winter journeys, and a picture of the proposed mobile workspace. That information helps separate a maintenance job from correction, repair, or protection before an appointment is arranged.",
+      },
+    ],
+    faqs: [
+      {
+        q: "How often should I wash my car after South Yorkshire roads are gritted?",
+        a: "Use the car's actual exposure rather than one fixed interval. Check the lower panels, wheels, arches, and rear after treated-road use, then wash at the next safe opportunity when a visible salt-laden film is building. Mileage, weather, storage, and route all change the timing.",
+      },
+      {
+        q: "Can paint correction remove winter stone chips?",
+        a: "No. Correction can improve suitable defects within sound clear coat, but it cannot replace missing colour or rebuild lacquer. A chip that exposes primer or metal needs an appropriate paint-repair assessment.",
+      },
+      {
+        q: "Does PPF mean I can leave road salt on the car?",
+        a: "No. PPF protects covered painted areas from some physical wear, but the film, its edges, uncovered panels, wheels, and underside still need suitable cleaning. Existing chips or unstable paint should be resolved before film is considered.",
+      },
+      {
+        q: "Which RIGN service helps with winter paint care?",
+        a: "Detailing is the starting point for safe cleaning and decontamination. Paint correction is considered only after clean paint reveals suitable clear-coat defects, while targeted PPF may protect selected sound panels. Photos help RIGN recommend the proportionate option.",
+      },
+    ],
+    faqHeading: "South Yorkshire winter car-care questions",
+    sources: [
+      {
+        href: "https://www.sheffield.gov.uk/roads-pavements/winter-road-maintenance-and-gritting",
+        label: "Sheffield City Council — winter road maintenance and gritting",
+      },
+      {
+        href: "https://www.rotherham.gov.uk/transport-streets/gritting",
+        label: "Rotherham Council — gritting priorities",
+      },
+      {
+        href: "https://www.barnsley.gov.uk/services/roads-travel-and-parking/gritting/",
+        label: "Barnsley Council — gritting",
+      },
+      {
+        href: "https://www.autoglym.com/professional/blog/protect-cars-from-winter-damage-the-importance-of-washing-away-road-salt",
+        label: "Autoglym — the importance of washing away road salt",
+      },
+    ],
+    schemaService: {
+      name: "Winter Vehicle Finish Care in South Yorkshire",
+      description:
+        "Condition-led detailing, paint assessment, correction advice, and targeted paint protection planning for vehicles used on South Yorkshire winter roads.",
+      areaName: "South Yorkshire",
+    },
+    relatedLinks: [
+      { href: "/services/detailing", label: "Detailing service" },
+      { href: "/services/paint-correction", label: "Paint correction service" },
+      {
+        href: "/services/paint-protection-film",
+        label: "Targeted paint protection film",
+      },
+    ],
+  },
 ];
 
 export function getGuideBySlug(slug: string): GuideDef | undefined {

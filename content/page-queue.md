@@ -17,7 +17,7 @@ freshness maintenance.
 7. [x] **A — Chrome delete × Doncaster** — `/services/chrome-delete/doncaster` (built 2026-07-25)
 8. [x] **A — Detailing × Sheffield** — `/services/detailing/sheffield` (built 2026-07-26)
 9. [x] **C — Leeds town page** — `/areas-we-cover/leeds` (built 2026-07-27)
-10. [ ] **B — Winter paint care on South Yorkshire roads**
+10. [x] **B — Winter paint care on South Yorkshire roads** — `/guides/winter-paint-care-south-yorkshire` (built 2026-07-31)
 11. [ ] **A — Paint correction × Rotherham**
 12. [ ] **A — PPF × Barnsley**
 13. [ ] **B — Satin vs gloss chrome delete**
