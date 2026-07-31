@@ -1,6 +1,6 @@
 # Existing public pages
 
-Last checked: 2026-07-27
+Last checked: 2026-07-31
 
 This inventory compares public App Router pages, `lib/seo.ts` `SITE_ROUTES`,
 and the live sitemap. API, metadata-image, `robots.txt`, `sitemap.xml`, and
@@ -14,7 +14,7 @@ not-found routes are not content pages.
 | `/areas-we-cover/barnsley` | Yes | Yes | Yes |
 | `/areas-we-cover/chesterfield` | Yes | Yes | Yes |
 | `/areas-we-cover/doncaster` | Yes | Yes | Yes |
-| `/areas-we-cover/leeds` | Yes | Yes | No — new this run |
+| `/areas-we-cover/leeds` | Yes | Yes | No — branch only |
 | `/areas-we-cover/rotherham` | Yes | Yes | Yes |
 | `/areas-we-cover/sheffield` | Yes | Yes | Yes |
 | `/contact` | Yes | Yes | Yes |
@@ -28,6 +28,7 @@ not-found routes are not content pages.
 | `/guides/ppf-vs-chrome-delete` | Yes | Yes | Yes |
 | `/guides/south-yorkshire-car-meets-and-shows` | Yes | Yes | Yes |
 | `/guides/what-is-chrome-delete` | Yes | Yes | Yes |
+| `/guides/winter-paint-care-south-yorkshire` | Yes | Yes | No — new this run |
 | `/pricing` | Yes | Yes | Yes |
 | `/privacy` | Yes | Yes | Yes |
 | `/services/chrome-delete` | Yes | Yes | Yes |
@@ -35,7 +36,7 @@ not-found routes are not content pages.
 | `/services/chrome-delete/sheffield` | Yes | Yes | No — branch only |
 | `/services/detailing` | Yes | Yes | Yes |
 | `/services/detailing/rotherham` | Yes | Yes | No — branch only |
-| `/services/detailing/sheffield` | Yes | Yes | No — new this run |
+| `/services/detailing/sheffield` | Yes | Yes | No — branch only |
 | `/services/paint-correction` | Yes | Yes | Yes |
 | `/services/paint-correction/barnsley` | Yes | Yes | No — branch only |
 | `/services/paint-protection-film` | Yes | Yes | Yes |
@@ -86,6 +87,13 @@ not-found routes are not content pages.
   brief hub-only mention with an appointment-suitability decision, a four-
   service problem framework, checked M621 context, workspace guidance, and an
   original quote checklist without claiming that RIGN is based in Leeds.
+- `/guides/winter-paint-care-south-yorkshire` is a new, non-conflicting guide
+  route. It adds a researched winter wash sequence, South Yorkshire gritting
+  context, exposure-led timing, hidden-area guidance, and clear boundaries
+  between cleaning, correction, paint repair, and protection.
+- The winter guide's rendered five-word main-content Jaccard comparison peaked
+  at **3.98%** against `/guides`; all 35 App Router content pages, 35
+  `SITE_ROUTES` entries, and 35 local sitemap entries match.
 - The Leeds page's rendered five-word main-content Jaccard comparison peaked at
   **1.87%** against `/what-we-do`; all 34 app routes, `SITE_ROUTES` entries, and
   local sitemap entries match.

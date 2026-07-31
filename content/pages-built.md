@@ -1,6 +1,6 @@
 # RIGN pages built
 
-## Live baseline — checked 2026-07-27
+## Live baseline — checked 2026-07-31
 
 The following public routes returned HTTP 200 on `https://www.rign.uk`:
 
