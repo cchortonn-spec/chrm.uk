@@ -120,6 +120,7 @@ export const SITE_ROUTES = [
   "/services/detailing/sheffield",
   "/services/paint-correction",
   "/services/paint-correction/barnsley",
+  "/services/paint-correction/rotherham",
   "/pricing",
   "/dealerships",
   "/areas-we-cover",

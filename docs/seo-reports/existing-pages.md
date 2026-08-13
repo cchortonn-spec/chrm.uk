@@ -1,6 +1,6 @@
 # Existing public pages
 
-Last checked: 2026-07-31
+Last checked: 2026-08-13
 
 This inventory compares public App Router pages, `lib/seo.ts` `SITE_ROUTES`,
 and the live sitemap. API, metadata-image, `robots.txt`, `sitemap.xml`, and
@@ -39,6 +39,7 @@ not-found routes are not content pages.
 | `/services/detailing/sheffield` | Yes | Yes | No — branch only |
 | `/services/paint-correction` | Yes | Yes | Yes |
 | `/services/paint-correction/barnsley` | Yes | Yes | No — branch only |
+| `/services/paint-correction/rotherham` | Yes | Yes | No — new this run |
 | `/services/paint-protection-film` | Yes | Yes | Yes |
 | `/services/paint-protection-film/chesterfield` | Yes | Yes | No — branch only |
 | `/terms` | Yes | Yes | Yes |
