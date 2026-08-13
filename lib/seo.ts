@@ -14,11 +14,16 @@ export type PageSeoConfig = {
   index?: boolean;
 };
 
-function getSiteUrl() {
-  return (
-    process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ||
-    "https://rign.uk"
-  );
+export function getSiteUrl() {
+  const configuredUrl = process.env.NEXT_PUBLIC_SITE_URL
+    ?.trim()
+    .replace(/\/$/, "");
+
+  if (!configuredUrl || configuredUrl === "https://rign.uk") {
+    return "https://www.rign.uk";
+  }
+
+  return configuredUrl;
 }
 
 function toAbsoluteUrl(pathOrUrl: string) {
@@ -106,9 +111,16 @@ export const SITE_ROUTES = [
   "/about",
   "/what-we-do",
   "/services/chrome-delete",
+  "/services/chrome-delete/sheffield",
+  "/services/chrome-delete/doncaster",
   "/services/paint-protection-film",
+  "/services/paint-protection-film/chesterfield",
   "/services/detailing",
+  "/services/detailing/rotherham",
+  "/services/detailing/sheffield",
   "/services/paint-correction",
+  "/services/paint-correction/barnsley",
+  "/services/paint-correction/rotherham",
   "/pricing",
   "/dealerships",
   "/areas-we-cover",
@@ -117,12 +129,16 @@ export const SITE_ROUTES = [
   "/areas-we-cover/barnsley",
   "/areas-we-cover/chesterfield",
   "/areas-we-cover/doncaster",
+  "/areas-we-cover/leeds",
   "/faq",
   "/guides",
   "/guides/south-yorkshire-car-meets-and-shows",
   "/guides/best-drives-and-car-spots-south-yorkshire",
   "/guides/what-is-chrome-delete",
   "/guides/ppf-vs-chrome-delete",
+  "/guides/paint-correction-vs-full-respray",
+  "/guides/buying-a-prestige-car-south-yorkshire",
+  "/guides/winter-paint-care-south-yorkshire",
   "/contact",
   "/privacy",
   "/terms",

@@ -1,36 +1,35 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useSyncExternalStore } from "react";
 import {
   CONSENT_OPEN_EVENT,
   applyConsentMode,
-  defaultConsent,
   readConsent,
   writeConsent,
   type ConsentState,
 } from "@/lib/consent";
 
-type CookieConsentProps = {
-  onAnalyticsChange?: (granted: boolean) => void;
-};
+function subscribeToHydration() {
+  return () => {};
+}
 
-export default function CookieConsent({ onAnalyticsChange }: CookieConsentProps) {
-  const [consent, setConsent] = useState<ConsentState>(defaultConsent);
-  const [hydrated, setHydrated] = useState(false);
-  const [showBanner, setShowBanner] = useState(false);
+export default function CookieConsent() {
+  const [consent, setConsent] = useState<ConsentState>(readConsent);
+  const [showBanner, setShowBanner] = useState(() => !consent.decided);
   const [showPrefs, setShowPrefs] = useState(false);
-  const [analyticsDraft, setAnalyticsDraft] = useState(false);
+  const [analyticsDraft, setAnalyticsDraft] = useState(
+    () => consent.analytics
+  );
+  const hydrated = useSyncExternalStore(
+    subscribeToHydration,
+    () => true,
+    () => false
+  );
 
   useEffect(() => {
     const current = readConsent();
-    setConsent(current);
-    setAnalyticsDraft(current.analytics);
-    setShowBanner(!current.decided);
-    setHydrated(true);
-
     if (current.decided) {
       applyConsentMode(current.analytics);
-      onAnalyticsChange?.(current.analytics);
     }
 
     const openPrefs = () => {
@@ -43,14 +42,13 @@ export default function CookieConsent({ onAnalyticsChange }: CookieConsentProps)
 
     window.addEventListener(CONSENT_OPEN_EVENT, openPrefs);
     return () => window.removeEventListener(CONSENT_OPEN_EVENT, openPrefs);
-  }, [onAnalyticsChange]);
+  }, []);
 
   function persist(analytics: boolean) {
     const next = writeConsent({ analytics, decided: true });
     setConsent(next);
     setAnalyticsDraft(analytics);
     applyConsentMode(analytics);
-    onAnalyticsChange?.(analytics);
     setShowBanner(false);
     setShowPrefs(false);
   }
