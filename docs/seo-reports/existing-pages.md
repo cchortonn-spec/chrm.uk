@@ -92,6 +92,15 @@ not-found routes are not content pages.
   route. It adds a researched winter wash sequence, South Yorkshire gritting
   context, exposure-led timing, hidden-area guidance, and clear boundaries
   between cleaning, correction, paint repair, and protection.
+- `/services/paint-correction/rotherham` is a new, non-conflicting combination
+  route. It uses a four-signal paint-reading framework, checked Rotherham
+  commuter-route context, stage-selection evidence, previous-paint history,
+  mobile-workspace checks, and aftercare boundaries instead of repeating the
+  Barnsley correction page or Rotherham detailing page.
+- The Rotherham correction page's rendered five-word main-content comparison
+  peaked at **1.59%** against `/services/paint-correction/barnsley`; all 36 App
+  Router content pages, 36 `SITE_ROUTES` entries, and 36 local sitemap entries
+  match.
 - The winter guide's rendered five-word main-content Jaccard comparison peaked
   at **3.98%** against `/guides`; all 35 App Router content pages, 35
   `SITE_ROUTES` entries, and 35 local sitemap entries match.
