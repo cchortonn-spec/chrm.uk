@@ -115,6 +115,7 @@ export const SITE_ROUTES = [
   "/services/chrome-delete/doncaster",
   "/services/paint-protection-film",
   "/services/paint-protection-film/chesterfield",
+  "/services/paint-protection-film/barnsley",
   "/services/detailing",
   "/services/detailing/rotherham",
   "/services/detailing/sheffield",
