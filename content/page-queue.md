@@ -19,7 +19,7 @@ freshness maintenance.
 9. [x] **C — Leeds town page** — `/areas-we-cover/leeds` (built 2026-07-27)
 10. [x] **B — Winter paint care on South Yorkshire roads** — `/guides/winter-paint-care-south-yorkshire` (built 2026-07-31)
 11. [x] **A — Paint correction × Rotherham** — `/services/paint-correction/rotherham` (built 2026-08-13)
-12. [ ] **A — PPF × Barnsley**
+12. [x] **A — PPF × Barnsley** — `/services/paint-protection-film/barnsley` (built 2026-08-14)
 13. [ ] **B — Satin vs gloss chrome delete**
 14. [ ] **D — Pricing page: verify, expand, and genuinely refresh**
 15. [ ] **A — Chrome delete × Chesterfield**

@@ -1,6 +1,6 @@
 # Existing public pages
 
-Last checked: 2026-08-13
+Last checked: 2026-08-14
 
 This inventory compares public App Router pages, `lib/seo.ts` `SITE_ROUTES`,
 and the live sitemap. API, metadata-image, `robots.txt`, `sitemap.xml`, and
@@ -28,7 +28,7 @@ not-found routes are not content pages.
 | `/guides/ppf-vs-chrome-delete` | Yes | Yes | Yes |
 | `/guides/south-yorkshire-car-meets-and-shows` | Yes | Yes | Yes |
 | `/guides/what-is-chrome-delete` | Yes | Yes | Yes |
-| `/guides/winter-paint-care-south-yorkshire` | Yes | Yes | No — new this run |
+| `/guides/winter-paint-care-south-yorkshire` | Yes | Yes | No — branch only |
 | `/pricing` | Yes | Yes | Yes |
 | `/privacy` | Yes | Yes | Yes |
 | `/services/chrome-delete` | Yes | Yes | Yes |
@@ -39,8 +39,9 @@ not-found routes are not content pages.
 | `/services/detailing/sheffield` | Yes | Yes | No — branch only |
 | `/services/paint-correction` | Yes | Yes | Yes |
 | `/services/paint-correction/barnsley` | Yes | Yes | No — branch only |
-| `/services/paint-correction/rotherham` | Yes | Yes | No — new this run |
+| `/services/paint-correction/rotherham` | Yes | Yes | No — branch only |
 | `/services/paint-protection-film` | Yes | Yes | Yes |
+| `/services/paint-protection-film/barnsley` | Yes | Yes | No — new this run |
 | `/services/paint-protection-film/chesterfield` | Yes | Yes | No — branch only |
 | `/terms` | Yes | Yes | Yes |
 | `/what-we-do` | Yes | Yes | Yes |
@@ -97,6 +98,15 @@ not-found routes are not content pages.
   commuter-route context, stage-selection evidence, previous-paint history,
   mobile-workspace checks, and aftercare boundaries instead of repeating the
   Barnsley correction page or Rotherham detailing page.
+- `/services/paint-protection-film/barnsley` is a new, non-conflicting
+  combination route. It chooses smaller PPF sections from the way contact
+  happens, uses checked Barnsley parking and strategic-route context, explains
+  coverage-edge limits, and separates paint preparation from protection
+  instead of repeating the Chesterfield PPF page or Barnsley town hub.
+- The Barnsley PPF page's rendered five-word main-content comparison peaked at
+  **1.86%** against `/services/paint-protection-film/chesterfield`. All 37 App
+  Router content pages, 37 `SITE_ROUTES` entries, and 37 local sitemap entries
+  match, and the final slug appears once in each route source.
 - The Rotherham correction page's rendered five-word main-content comparison
   peaked at **1.59%** against `/services/paint-correction/barnsley`; all 36 App
   Router content pages, 36 `SITE_ROUTES` entries, and 36 local sitemap entries
