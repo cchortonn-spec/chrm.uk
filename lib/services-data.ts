@@ -109,6 +109,10 @@ export const SERVICES: ServiceDef[] = [
     name: "Paint Protection Film",
     shortName: "PPF",
     href: "/services/paint-protection-film",
+    townPages: {
+      barnsley: "/services/paint-protection-film/barnsley",
+      chesterfield: "/services/paint-protection-film/chesterfield",
+    },
     h1: "Paint Protection Film (PPF) in South Yorkshire",
     metaDescription:
       "PPF / paint protection film in South Yorkshire — smaller panels, rocker covers, high-impact areas. Mobile fitting from Sheffield & surrounding. Quote via WhatsApp.",
