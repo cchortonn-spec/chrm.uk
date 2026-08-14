@@ -132,6 +132,30 @@ export const PRIORITY_TOWNS: TownDef[] = [
     ],
     nearby: ["Rotherham", "Sheffield", "Barnsley", "Pontefract"],
   },
+  {
+    slug: "leeds",
+    name: "Leeds",
+    href: "/areas-we-cover/leeds",
+    region: "West Yorkshire · By appointment",
+    h1: "Chrome Delete, Detailing, PPF & Paint Correction in Leeds",
+    metaDescription:
+      "Mobile chrome delete, detailing, targeted PPF and paint correction in Leeds by appointment. Honest scope, specialist finish and photo quotes.",
+    intro:
+      "RIGN covers Leeds for suitable mobile chrome delete, detailing, targeted PPF, and paint correction appointments from our South Yorkshire base.",
+    localContext:
+      "Leeds appointments are assessed around the vehicle, desired result, travel, and proposed workspace. Send the postcode and photos first so we can confirm whether the service and location suit mobile work.",
+    districts: [
+      "City centre",
+      "Headingley",
+      "Horsforth",
+      "Roundhay",
+      "Chapel Allerton",
+      "Pudsey",
+      "Morley",
+      "Garforth",
+    ],
+    nearby: ["Wakefield", "Huddersfield", "Barnsley", "Sheffield"],
+  },
 ];
 
 /** Towns covered on the hub page only (no dedicated URL yet). */
@@ -139,10 +163,6 @@ export const HUB_ONLY_TOWNS: {
   name: string;
   body: string;
 }[] = [
-  {
-    name: "Leeds",
-    body: "West Yorkshire coverage by appointment — chrome delete, PPF, detailing, and paint correction when the job suits travel from our South Yorkshire base. Ask when you send photos.",
-  },
   {
     name: "Huddersfield",
     body: "We travel into Huddersfield and the surrounding Colne Valley / M62 corridor by appointment for suitable trim and finish work.",
